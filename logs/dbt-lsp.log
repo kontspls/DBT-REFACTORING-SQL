@@ -3186,3 +3186,2271 @@ Finished 'compile' with 1 warning for target 'dev' [111ms]
 09:14:50.991521 [info ]: Creating LSP server...
 09:14:50.991534 [info ]: Starting LSP server...
 09:15:23.448126 [info ]: Loading ~/.dbt/profiles.yml
+09:20:25.072692 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T12:43:38.398317Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-10-20T12:43:38.398611Z | 450de66e-f558-47de-977f-46ca8cc6621f ====================
+12:43:38.398642 [info ]: Starting dbt LSP server
+12:43:38.398667 [info ]: Connecting to LSP client on port 8000
+12:43:38.402647 [info ]: Successfully connected to LSP client
+12:43:38.402678 [info ]: Creating LSP service...
+12:43:38.404264 [info ]: Creating LSP server...
+12:43:38.404273 [info ]: Starting LSP server...
+12:44:16.761545 [info ]: Loading ~/.dbt/profiles.yml
+12:47:44.594948 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T12:49:16.376053Z | b8c3a7e6-ff25-4c33-8e9e-6aa0d833180f ====================
+12:49:16.376254 [info ]: Started loading project
+12:49:16.377138 [info ]: Loading ~/.dbt/profiles.yml
+12:49:16.391778 [info ]: Loading packages.yml
+12:49:16.395968 [debug]:    Started loading packages
+12:49:16.415927 [debug]:     Loaded [  0.02s] packages
+12:49:16.417551 [info ]: Finished loading project [  0.04s]
+12:49:16.417987 [info ]: Started parsing
+12:49:16.793535 [info ]: Finished parsing [  0.38s]
+12:49:16.794206 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [418ms]
+12:49:16.794605 [info ]: Waiting for lease on 'target' directory
+==================== 2026-10-20T12:49:16.919306Z | 21411683-d4e8-41ee-8ecc-b8a2e609b6a9 ====================
+12:49:16.919430 [info ]: Started loading project
+12:49:16.920205 [info ]: Loading ~/.dbt/profiles.yml
+12:49:16.928508 [info ]: Loading packages.yml
+12:49:16.929569 [debug]:    Started loading packages
+12:49:16.943516 [debug]:     Loaded [  0.01s] packages
+12:49:16.944764 [info ]: Finished loading project [  0.03s]
+12:49:16.944967 [info ]: Started parsing
+12:49:17.198827 [info ]: Finished parsing [  0.25s]
+12:49:17.199414 [info ]: Cached model count updated: 0 models (estimate)
+12:49:17.199427 [info ]: Cached model count updated: 0 models (accurate)
+12:49:17.199469 [info ]: Started scheduling
+12:49:17.199555 [info ]: Finished scheduling [  0.00s]
+12:49:17.199571 [debug]: Compilation - 0 nodes selected: {}
+12:49:17.199633 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+12:49:17.199659 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:49:17.199674 [info ]: Started scheduling
+12:49:17.199683 [info ]: Finished scheduling [  0.00s]
+12:49:17.261120 [info ]: Started building task graph
+12:49:17.261187 [info ]: Finished building task graph [  0.00s]
+12:49:17.294810 [info ]: Started scheduling
+12:49:17.294851 [info ]: Finished scheduling [  0.00s]
+12:49:17.295022 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [375ms]
+12:49:17.295095 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-10-20T12:49:18.957131Z | 94e5b196-d599-4341-b034-b671a39e806a ====================
+12:49:18.957236 [info ]: Started loading project
+12:49:18.958174 [info ]: Loading ~/.dbt/profiles.yml
+12:49:18.964642 [info ]: Finished loading project [  0.01s]
+12:49:18.999958 [info ]: Cached model count updated: 0 models (estimate)
+12:49:18.999988 [info ]: Cached model count updated: 0 models (accurate)
+12:49:19.000007 [info ]: Started scheduling
+12:49:19.000031 [info ]: Finished scheduling [  0.00s]
+12:49:19.000043 [debug]: Compilation - 0 nodes selected: {}
+12:49:19.000068 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:49:19.043605 [info ]: Started building task graph
+12:49:19.043633 [info ]: Finished building task graph [  0.00s]
+12:49:19.078538 [info ]: Started scheduling
+12:49:19.078585 [info ]: Finished scheduling [  0.00s]
+12:49:19.078701 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [121ms]
+12:49:19.079061 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-10-20T12:49:42.755704Z | 84969d44-173b-4027-b3e8-67c3a3734107 ====================
+12:49:42.755776 [info ]: Started loading project
+12:49:42.756439 [info ]: Loading ~/.dbt/profiles.yml
+12:49:42.763342 [info ]: Finished loading project [  0.01s]
+12:49:42.807286 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [51ms]
+12:49:42.807360 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-10-20T12:49:44.370766Z | 7977ffaf-f954-4c60-a520-c0f7558f02b3 ====================
+12:49:44.370854 [info ]: Started loading project
+12:49:44.371640 [info ]: Loading ~/.dbt/profiles.yml
+12:49:44.377993 [info ]: Finished loading project [  0.01s]
+12:49:44.412153 [info ]: Cached model count updated: 0 models (estimate)
+12:49:44.412184 [info ]: Cached model count updated: 0 models (accurate)
+12:49:44.412203 [info ]: Started scheduling
+12:49:44.412227 [info ]: Finished scheduling [  0.00s]
+12:49:44.412239 [debug]: Compilation - 0 nodes selected: {}
+12:49:44.412257 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:49:44.455716 [info ]: Started building task graph
+12:49:44.455744 [info ]: Finished building task graph [  0.00s]
+12:49:44.489947 [info ]: Started scheduling
+12:49:44.489991 [info ]: Finished scheduling [  0.00s]
+12:49:44.490097 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [119ms]
+12:49:44.490671 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-10-20T12:52:39.388152Z | 791485aa-d0eb-42f1-9b20-c0c9be1498ad ====================
+12:52:39.388224 [info ]: Started loading project
+12:52:39.388954 [info ]: Loading ~/.dbt/profiles.yml
+12:52:39.395573 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T12:52:39.396959Z | df48d7ad-261f-45b8-862c-2a9629e0b198 ====================
+12:52:39.396989 [info ]: Started loading project
+12:52:39.397586 [info ]: Loading ~/.dbt/profiles.yml
+12:52:39.405379 [info ]: Loading packages.yml
+12:52:39.406194 [debug]:    Started loading packages
+12:52:39.421092 [debug]:     Loaded [  0.01s] packages
+12:52:39.422177 [info ]: Finished loading project [  0.03s]
+12:52:39.422415 [info ]: Started parsing
+12:52:39.485723 [debug]: Finished parsing models/refact_tut/legacy/customer_orders_legacy.sql [  0.00s]
+12:52:39.663145 [info ]: Finished parsing [  0.24s]
+12:52:39.663910 [info ]: Cached model count updated: 1 models (estimate)
+12:52:39.663923 [info ]: Cached model count updated: 1 models (accurate)
+12:52:39.663947 [info ]: Started scheduling
+12:52:39.663974 [info ]: Finished scheduling [  0.00s]
+12:52:39.663984 [debug]: Compilation - 0 nodes selected: {}
+12:52:39.664001 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+12:52:39.664013 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:52:39.664020 [info ]: Started scheduling
+12:52:39.664037 [info ]: Finished scheduling [  0.00s]
+12:52:39.703326 [info ]: Started building task graph
+12:52:39.703357 [info ]: Finished building task graph [  0.00s]
+12:52:39.733348 [info ]: Started scheduling
+12:52:39.733395 [info ]: Finished scheduling [  0.00s]
+12:52:39.733536 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [336ms]
+12:52:39.733589 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [345ms]
+12:52:39.736849 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:52:41.271946Z | db7d7518-7590-40e0-944c-c53d25774f14 ====================
+12:52:41.271996 [info ]: Started loading project
+12:52:41.272763 [info ]: Loading ~/.dbt/profiles.yml
+12:52:41.279316 [info ]: Finished loading project [  0.01s]
+12:52:41.315138 [info ]: Cached model count updated: 1 models (estimate)
+12:52:41.315164 [info ]: Cached model count updated: 1 models (accurate)
+12:52:41.315187 [info ]: Started scheduling
+12:52:41.315217 [info ]: Finished scheduling [  0.00s]
+12:52:41.315229 [debug]: Compilation - 0 nodes selected: {}
+12:52:41.315267 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:52:41.360702 [info ]: Started building task graph
+12:52:41.360732 [info ]: Finished building task graph [  0.00s]
+12:52:41.389986 [info ]: Started scheduling
+12:52:41.390028 [info ]: Finished scheduling [  0.00s]
+12:52:41.390120 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [118ms]
+12:52:41.390416 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:52:42.794791Z | 17e0b184-1eed-4693-b265-625499d66a46 ====================
+12:52:42.794860 [info ]: Started loading project
+12:52:42.795565 [info ]: Loading ~/.dbt/profiles.yml
+12:52:42.802282 [info ]: Finished loading project [  0.01s]
+12:52:42.842014 [info ]: Cached model count updated: 1 models (estimate)
+12:52:42.842039 [info ]: Cached model count updated: 1 models (accurate)
+12:52:42.842079 [info ]: Started scheduling
+12:52:42.842179 [info ]: Finished scheduling [  0.00s]
+12:52:42.842199 [debug]: Compilation - 0 nodes selected: {}
+12:52:42.842239 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+12:52:42.842262 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:52:42.902301 [info ]: Started building task graph
+12:52:42.902342 [info ]: Finished building task graph [  0.00s]
+12:52:42.941715 [info ]: Started scheduling
+12:52:42.941767 [info ]: Finished scheduling [  0.00s]
+12:52:42.941850 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [147ms]
+12:52:42.941913 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:52:42.986828Z | cc878cdd-8f62-4526-9dfe-41ed299a2c90 ====================
+12:52:42.986901 [info ]: Started loading project
+12:52:42.987645 [info ]: Loading ~/.dbt/profiles.yml
+12:52:42.994884 [info ]: Finished loading project [  0.01s]
+12:52:43.030288 [info ]: Cached model count updated: 1 models (estimate)
+12:52:43.030312 [info ]: Cached model count updated: 1 models (accurate)
+12:52:43.030336 [info ]: Started scheduling
+12:52:43.030373 [info ]: Finished scheduling [  0.00s]
+12:52:43.030389 [debug]: Compilation - 0 nodes selected: {}
+12:52:43.030431 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+12:52:43.030444 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:52:43.070305 [info ]: Started building task graph
+12:52:43.070335 [info ]: Finished building task graph [  0.00s]
+12:52:43.100538 [info ]: Started scheduling
+12:52:43.100585 [info ]: Finished scheduling [  0.00s]
+12:52:43.100661 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [113ms]
+12:52:43.100721 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:52:44.692496Z | d83a14e0-a5aa-444d-a762-cd86b3c16864 ====================
+12:52:44.692561 [info ]: Started loading project
+12:52:44.693282 [info ]: Loading ~/.dbt/profiles.yml
+12:52:44.699653 [info ]: Finished loading project [  0.01s]
+12:52:44.735248 [info ]: Cached model count updated: 1 models (estimate)
+12:52:44.735271 [info ]: Cached model count updated: 1 models (accurate)
+12:52:44.735295 [info ]: Started scheduling
+12:52:44.735326 [info ]: Finished scheduling [  0.00s]
+12:52:44.735339 [debug]: Compilation - 0 nodes selected: {}
+12:52:44.735356 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:52:44.780613 [info ]: Started building task graph
+12:52:44.780644 [info ]: Finished building task graph [  0.00s]
+12:52:44.815950 [info ]: Started scheduling
+12:52:44.816008 [info ]: Finished scheduling [  0.00s]
+12:52:44.816101 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [123ms]
+12:52:44.816443 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:56:39.166369Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-10-20T12:56:39.166748Z | eaf4823a-9224-44fe-a0d3-78a385a1fb1d ====================
+12:56:39.166791 [info ]: Starting dbt LSP server
+12:56:39.166833 [info ]: Connecting to LSP client on port 8000
+12:56:39.171600 [info ]: Successfully connected to LSP client
+12:56:39.171629 [info ]: Creating LSP service...
+12:56:39.173116 [info ]: Creating LSP server...
+12:56:39.173132 [info ]: Starting LSP server...
+12:56:39.428496 [info ]: Loading ~/.dbt/profiles.yml
+==================== 2026-10-20T12:56:39.459805Z | 369df1dc-70b5-466d-955e-552e3050905c ====================
+12:56:39.459946 [info ]: Started loading project
+12:56:39.460652 [info ]: Loading ~/.dbt/profiles.yml
+12:56:39.470327 [info ]: Loading packages.yml
+12:56:39.471238 [debug]:    Started loading packages
+12:56:39.485066 [debug]:     Loaded [  0.01s] packages
+12:56:39.486582 [info ]: Finished loading project [  0.03s]
+12:56:39.487049 [info ]: Started parsing
+12:56:39.547892 [debug]: Finished parsing models/refact_tut/legacy/customer_orders_legacy.sql [  0.00s]
+12:56:39.580885 [debug]: Ignoring unsupported LSP notification
+12:56:39.756144 [info ]: Finished parsing [  0.27s]
+12:56:39.756990 [info ]: Cached model count updated: 1 models (estimate)
+12:56:39.757006 [info ]: Cached model count updated: 1 models (accurate)
+12:56:39.757073 [info ]: Started scheduling
+12:56:39.757207 [info ]: Finished scheduling [  0.00s]
+12:56:39.757228 [debug]: Compilation - 0 nodes selected: {}
+12:56:39.757276 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+12:56:39.757300 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:56:39.757313 [info ]: Started scheduling
+12:56:39.757323 [info ]: Finished scheduling [  0.00s]
+12:56:39.798959 [info ]: Started building task graph
+12:56:39.799023 [info ]: Finished building task graph [  0.00s]
+12:56:39.831079 [info ]: Started scheduling
+12:56:39.831121 [info ]: Finished scheduling [  0.00s]
+12:56:39.831318 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [371ms]
+12:56:39.831425 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:56:39.872940Z | 926340bd-73fa-4393-823b-34e364b87e7e ====================
+12:56:39.873063 [info ]: Started loading project
+12:56:39.873713 [info ]: Loading ~/.dbt/profiles.yml
+12:56:39.879738 [info ]: Finished loading project [  0.01s]
+12:56:39.912554 [info ]: Cached model count updated: 1 models (estimate)
+12:56:39.912576 [info ]: Cached model count updated: 1 models (accurate)
+12:56:39.912603 [info ]: Started scheduling
+12:56:39.912638 [info ]: Finished scheduling [  0.00s]
+12:56:39.912654 [debug]: Compilation - 0 nodes selected: {}
+12:56:39.912680 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+12:56:39.912695 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:56:39.953493 [info ]: Started building task graph
+12:56:39.953524 [info ]: Finished building task graph [  0.00s]
+12:56:39.984060 [info ]: Started scheduling
+12:56:39.984111 [info ]: Finished scheduling [  0.00s]
+12:56:39.984223 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [111ms]
+12:56:39.984446 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:56:40.093774Z | aef85bb2-fae1-4980-9847-8c74ab3672ce ====================
+12:56:40.093847 [info ]: Started loading project
+12:56:40.094476 [info ]: Loading ~/.dbt/profiles.yml
+12:56:40.100284 [info ]: Finished loading project [  0.01s]
+12:56:40.132436 [info ]: Cached model count updated: 1 models (estimate)
+12:56:40.132459 [info ]: Cached model count updated: 1 models (accurate)
+12:56:40.132485 [info ]: Started scheduling
+12:56:40.132519 [info ]: Finished scheduling [  0.00s]
+12:56:40.132534 [debug]: Compilation - 0 nodes selected: {}
+12:56:40.132553 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+12:56:40.132567 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:56:40.169647 [info ]: Started building task graph
+12:56:40.169679 [info ]: Finished building task graph [  0.00s]
+12:56:40.199067 [info ]: Started scheduling
+12:56:40.199111 [info ]: Finished scheduling [  0.00s]
+12:56:40.199198 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [105ms]
+12:56:40.199253 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T12:56:41.754435Z | 80452487-233c-439a-9e02-6b6bd6d8366b ====================
+12:56:41.754503 [info ]: Started loading project
+12:56:41.755190 [info ]: Loading ~/.dbt/profiles.yml
+12:56:41.762629 [info ]: Finished loading project [  0.01s]
+12:56:41.800282 [info ]: Cached model count updated: 1 models (estimate)
+12:56:41.800315 [info ]: Cached model count updated: 1 models (accurate)
+12:56:41.800347 [info ]: Started scheduling
+12:56:41.800378 [info ]: Finished scheduling [  0.00s]
+12:56:41.800391 [debug]: Compilation - 0 nodes selected: {}
+12:56:41.800407 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+12:56:41.845463 [info ]: Started building task graph
+12:56:41.845494 [info ]: Finished building task graph [  0.00s]
+12:56:41.881687 [info ]: Started scheduling
+12:56:41.881744 [info ]: Finished scheduling [  0.00s]
+12:56:41.881841 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [127ms]
+12:56:41.882211 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:33.575074Z | 4f7b1ca8-f8fe-4967-a365-06d37df0b7b3 ====================
+13:21:33.575206 [info ]: Started loading project
+13:21:33.576136 [info ]: Loading ~/.dbt/profiles.yml
+13:21:33.583197 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:21:33.584547Z | 6e5893c6-3adb-49f0-924c-a1810876f953 ====================
+13:21:33.584576 [info ]: Started loading project
+13:21:33.585146 [info ]: Loading ~/.dbt/profiles.yml
+13:21:33.593919 [info ]: Loading packages.yml
+13:21:33.594801 [debug]:    Started loading packages
+13:21:33.610048 [debug]:     Loaded [  0.02s] packages
+13:21:33.611141 [info ]: Finished loading project [  0.03s]
+13:21:33.611375 [info ]: Started parsing
+13:21:33.671611 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:21:33.841157 [info ]: Finished parsing [  0.23s]
+13:21:33.841882 [info ]: Cached model count updated: 1 models (estimate)
+13:21:33.841894 [info ]: Cached model count updated: 1 models (accurate)
+13:21:33.841913 [info ]: Started scheduling
+13:21:33.841937 [info ]: Finished scheduling [  0.00s]
+13:21:33.841945 [debug]: Compilation - 0 nodes selected: {}
+13:21:33.841961 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:21:33.841975 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:21:33.841983 [info ]: Started scheduling
+13:21:33.841992 [info ]: Finished scheduling [  0.00s]
+13:21:33.881494 [info ]: Started building task graph
+13:21:33.881526 [info ]: Finished building task graph [  0.00s]
+13:21:33.911866 [info ]: Started scheduling
+13:21:33.911915 [info ]: Finished scheduling [  0.00s]
+13:21:33.912069 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [327ms]
+13:21:33.912125 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [337ms]
+13:21:33.915458 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:35.397928Z | 30cd79de-7d9d-4194-9451-a7da931cd4e3 ====================
+13:21:35.397987 [info ]: Started loading project
+13:21:35.398761 [info ]: Loading ~/.dbt/profiles.yml
+13:21:35.405034 [info ]: Finished loading project [  0.01s]
+13:21:35.438878 [info ]: Cached model count updated: 1 models (estimate)
+13:21:35.438902 [info ]: Cached model count updated: 1 models (accurate)
+13:21:35.438925 [info ]: Started scheduling
+13:21:35.438953 [info ]: Finished scheduling [  0.00s]
+13:21:35.438976 [debug]: Compilation - 0 nodes selected: {}
+13:21:35.438991 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:21:35.479407 [info ]: Started building task graph
+13:21:35.479436 [info ]: Finished building task graph [  0.00s]
+13:21:35.509141 [info ]: Started scheduling
+13:21:35.509197 [info ]: Finished scheduling [  0.00s]
+13:21:35.509299 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [111ms]
+13:21:35.509901 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:36.763108Z | 611f3429-3b52-4e35-b7ac-9d9d0b6741c0 ====================
+13:21:36.763198 [info ]: Started loading project
+13:21:36.763909 [info ]: Loading ~/.dbt/profiles.yml
+13:21:36.770918 [info ]: Finished loading project [  0.01s]
+13:21:36.807295 [info ]: Cached model count updated: 1 models (estimate)
+13:21:36.807318 [info ]: Cached model count updated: 1 models (accurate)
+13:21:36.807345 [info ]: Started scheduling
+13:21:36.807384 [info ]: Finished scheduling [  0.00s]
+13:21:36.807398 [debug]: Compilation - 0 nodes selected: {}
+13:21:36.807422 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+13:21:36.807434 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:21:36.852339 [info ]: Started building task graph
+13:21:36.852372 [info ]: Finished building task graph [  0.00s]
+13:21:36.886653 [info ]: Started scheduling
+13:21:36.886703 [info ]: Finished scheduling [  0.00s]
+13:21:36.886791 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [123ms]
+13:21:36.886844 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:36.921161Z | 2d587bdf-82bc-48d2-a7a2-c18dc3048687 ====================
+13:21:36.921239 [info ]: Started loading project
+13:21:36.921941 [info ]: Loading ~/.dbt/profiles.yml
+13:21:36.928871 [info ]: Finished loading project [  0.01s]
+13:21:36.963677 [info ]: Cached model count updated: 1 models (estimate)
+13:21:36.963700 [info ]: Cached model count updated: 1 models (accurate)
+13:21:36.963725 [info ]: Started scheduling
+13:21:36.963762 [info ]: Finished scheduling [  0.00s]
+13:21:36.963775 [debug]: Compilation - 0 nodes selected: {}
+13:21:36.963795 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+fqn:model.dbt-refactoring.customer_orders_legacy' does not match any enabled nodes
+13:21:36.963807 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:21:37.003141 [info ]: Started building task graph
+13:21:37.003175 [info ]: Finished building task graph [  0.00s]
+13:21:37.033053 [info ]: Started scheduling
+13:21:37.033100 [info ]: Finished scheduling [  0.00s]
+13:21:37.033192 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [112ms]
+13:21:37.033255 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:38.536941Z | 25c7f971-036d-470c-8f6c-ac7d4cb59ad7 ====================
+13:21:38.537008 [info ]: Started loading project
+13:21:38.537708 [info ]: Loading ~/.dbt/profiles.yml
+13:21:38.543910 [info ]: Finished loading project [  0.01s]
+13:21:38.579161 [info ]: Cached model count updated: 1 models (estimate)
+13:21:38.579184 [info ]: Cached model count updated: 1 models (accurate)
+13:21:38.579208 [info ]: Started scheduling
+13:21:38.579237 [info ]: Finished scheduling [  0.00s]
+13:21:38.579250 [debug]: Compilation - 0 nodes selected: {}
+13:21:38.579265 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:21:38.624668 [info ]: Started building task graph
+13:21:38.624701 [info ]: Finished building task graph [  0.00s]
+13:21:38.660340 [info ]: Started scheduling
+13:21:38.660390 [info ]: Finished scheduling [  0.00s]
+13:21:38.660475 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [123ms]
+13:21:38.661125 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:41.203839Z | 55eaabd5-ca5b-4d7d-a65d-52d8ba923d22 ====================
+13:21:41.203913 [info ]: Started loading project
+13:21:41.204576 [info ]: Loading ~/.dbt/profiles.yml
+13:21:41.216954 [info ]: Started parsing
+13:21:41.281467 [info ]: Finished loading project [  0.08s]
+13:21:41.284897 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:21:41.456610 [info ]: Finished parsing [  0.24s]
+13:21:41.459768 [info ]: Cached model count updated: 1 models (estimate)
+13:21:41.459782 [info ]: Cached model count updated: 1 models (accurate)
+13:21:41.459803 [info ]: Started scheduling
+13:21:41.459843 [info ]: Finished scheduling [  0.00s]
+13:21:41.459855 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:21:41.495575 [info ]: Started building task graph
+13:21:41.495644 [info ]: Finished building task graph [  0.00s]
+13:21:41.517224 [info ]: Started rendering (1 nodes)
+13:21:41.517268 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:21:41.517284 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:21:41.523557 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:21:41.523801 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:21:41.523837 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:21:41.523879 [info ]: Started analyzing (1 nodes)
+13:21:41.523891 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:21:41.560281 [debug]: Finished analyzing [  0.04s] model ktspls_refactoring.customer_orders_legacy [success]
+13:21:41.560312 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+13:21:41.560321 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.04s]
+13:21:41.567251 [info ]: Started scheduling
+13:21:41.567311 [info ]: Finished scheduling [  0.00s]
+13:21:41.568711 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [364ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:21:41.568781 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:21:43.022888Z | 3460f496-4295-463f-b75b-c1b691c5e9d2 ====================
+13:21:43.022955 [info ]: Started loading project
+13:21:43.023638 [info ]: Loading ~/.dbt/profiles.yml
+13:21:43.030222 [info ]: Finished loading project [  0.01s]
+13:21:43.065006 [info ]: Cached model count updated: 1 models (estimate)
+13:21:43.065036 [info ]: Cached model count updated: 1 models (accurate)
+13:21:43.065060 [info ]: Started scheduling
+13:21:43.065096 [info ]: Finished scheduling [  0.00s]
+13:21:43.065109 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:21:43.105910 [info ]: Started building task graph
+13:21:43.105948 [info ]: Finished building task graph [  0.00s]
+13:21:43.128519 [info ]: Started rendering (1 nodes)
+13:21:43.128547 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:21:43.128556 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:21:43.129073 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:21:43.129177 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:21:43.129192 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:21:43.129204 [info ]: Started analyzing (1 nodes)
+13:21:43.129210 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:21:43.132880 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:21:43.132896 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:21:43.132904 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.00s]
+13:21:43.140140 [info ]: Started scheduling
+13:21:43.140202 [info ]: Finished scheduling [  0.00s]
+13:21:43.140332 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [117ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:21:43.140695 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:22:54.396683Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-10-20T13:22:54.396906Z | 06cfc7b8-8c3b-4e02-b75b-5a14082a5a17 ====================
+13:22:54.396933 [info ]: Starting dbt LSP server
+13:22:54.396956 [info ]: Connecting to LSP client on port 8000
+13:22:54.401125 [info ]: Successfully connected to LSP client
+13:22:54.401157 [info ]: Creating LSP service...
+13:22:54.402496 [info ]: Creating LSP server...
+13:22:54.402508 [info ]: Starting LSP server...
+13:22:54.951760 [info ]: Loading ~/.dbt/profiles.yml
+==================== 2026-10-20T13:22:55.035547Z | 2cf17b25-dd0f-45a0-a1a3-52dd0e17daa0 ====================
+13:22:55.035676 [info ]: Started loading project
+13:22:55.036592 [info ]: Loading ~/.dbt/profiles.yml
+13:22:55.046953 [info ]: Loading packages.yml
+13:22:55.047852 [debug]:    Started loading packages
+13:22:55.061884 [debug]:     Loaded [  0.01s] packages
+13:22:55.063357 [info ]: Finished loading project [  0.03s]
+13:22:55.063836 [info ]: Started parsing
+13:22:55.131671 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:22:55.171262 [debug]: Ignoring unsupported LSP notification
+13:22:55.321611 [info ]: Finished parsing [  0.26s]
+13:22:55.322443 [info ]: Cached model count updated: 1 models (estimate)
+13:22:55.322456 [info ]: Cached model count updated: 1 models (accurate)
+13:22:55.322515 [info ]: Started scheduling
+13:22:55.322658 [info ]: Finished scheduling [  0.00s]
+13:22:55.322678 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:22:55.322715 [info ]: Started scheduling
+13:22:55.322730 [info ]: Finished scheduling [  0.00s]
+13:22:55.380281 [info ]: Started building task graph
+13:22:55.380400 [info ]: Finished building task graph [  0.00s]
+13:22:55.413427 [info ]: Started rendering (1 nodes)
+13:22:55.413495 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:22:55.413530 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:22:55.421850 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:22:55.422162 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:22:55.422200 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:22:55.422249 [info ]: Started analyzing (1 nodes)
+13:22:55.422266 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:22:55.458923 [debug]: Finished analyzing [  0.04s] model ktspls_refactoring.customer_orders_legacy [success]
+13:22:55.458956 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+13:22:55.458967 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.04s]
+13:22:55.467530 [info ]: Started scheduling
+13:22:55.467595 [info ]: Finished scheduling [  0.00s]
+13:22:55.467789 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [432ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:22:55.467910 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:22:57.164759Z | 33d710eb-629d-4754-8fd7-21cfa3af3e87 ====================
+13:22:57.164858 [info ]: Started loading project
+13:22:57.165509 [info ]: Loading ~/.dbt/profiles.yml
+13:22:57.171523 [info ]: Finished loading project [  0.01s]
+13:22:57.203444 [info ]: Cached model count updated: 1 models (estimate)
+13:22:57.203466 [info ]: Cached model count updated: 1 models (accurate)
+13:22:57.203488 [info ]: Started scheduling
+13:22:57.203522 [info ]: Finished scheduling [  0.00s]
+13:22:57.203536 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:22:57.241290 [info ]: Started building task graph
+13:22:57.241333 [info ]: Finished building task graph [  0.00s]
+13:22:57.263437 [info ]: Started rendering (1 nodes)
+13:22:57.263467 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:22:57.263478 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:22:57.263966 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:22:57.264045 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:22:57.264063 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:22:57.264078 [info ]: Started analyzing (1 nodes)
+13:22:57.264084 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:22:57.268362 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:22:57.268397 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:22:57.268406 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.00s]
+13:22:57.276571 [info ]: Started scheduling
+13:22:57.276619 [info ]: Finished scheduling [  0.00s]
+13:22:57.276730 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [111ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:22:57.277092 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:24:14.897633Z | 01aea9e1-1d09-4fbd-8c4f-04dcddf0b992 ====================
+13:24:14.897703 [info ]: Started loading project
+13:24:14.898393 [info ]: Loading ~/.dbt/profiles.yml
+13:24:14.905072 [info ]: Finished loading project [  0.01s]
+13:24:14.949292 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [51ms]
+13:24:14.949363 [info ]: Cached model count updated: 1 models (accurate)
+13:24:14.992695 [debug]: Databricks driver resolved: databricks 0.21.0.dev+dbt0.21.13
+13:24:23.285097 [debug]: Query executed on node unknown:
+select * from (
+WITH paid_orders as (select Orders.ID as order_id,
+        Orders.USER_ID    as customer_id,
+        Orders.ORDER_DATE AS order_placed_at,
+            Orders.STATUS AS order_status,
+        p.total_amount_paid,
+        p.payment_finalized_date,
+        C.FIRST_NAME    as customer_first_name,
+            C.LAST_NAME as customer_last_name
+    FROM raw.jaffle_shop.orders as Orders
+    left join (select ORDERID as order_id, max(CREATED) as payment_finalized_date, sum(AMOUNT) / 100.0 as total_amount_paid
+from raw.stripe.payment
+where STATUS <> 'fail'
+group by 1) p ON orders.ID = p.order_id
+left join raw.jaffle_shop.customers C on orders.USER_ID = C.ID ),
+
+customer_orders 
+    as (select C.ID as customer_id
+        , min(ORDER_DATE) as first_order_date
+        , max(ORDER_DATE) as most_recent_order_date
+        , count(ORDERS.ID) AS number_of_orders
+    from raw.jaffle_shop.customers C 
+    left join raw.jaffle_shop.orders as Orders
+    on orders.USER_ID = C.ID 
+    group by 1)
+SELECT * FROM customer_orders
+) limit 1000
+==================== 2026-10-20T13:24:23.363629Z | 10d1ddfe-64af-4dcb-9676-918931a9fe25 ====================
+13:24:23.363695 [info ]: Started loading project
+13:24:23.364430 [info ]: Loading ~/.dbt/profiles.yml
+13:24:23.371028 [info ]: Finished loading project [  0.01s]
+13:24:23.410409 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [46ms]
+13:24:23.410555 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:24:25.033914Z | 40a22a47-aef8-4c9b-99eb-ba347342f835 ====================
+13:24:25.033980 [info ]: Started loading project
+13:24:25.034681 [info ]: Loading ~/.dbt/profiles.yml
+13:24:25.041023 [info ]: Finished loading project [  0.01s]
+13:24:25.075106 [info ]: Cached model count updated: 1 models (estimate)
+13:24:25.075138 [info ]: Cached model count updated: 1 models (accurate)
+13:24:25.075159 [info ]: Started scheduling
+13:24:25.075194 [info ]: Finished scheduling [  0.00s]
+13:24:25.075207 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:24:25.118983 [info ]: Started building task graph
+13:24:25.119027 [info ]: Finished building task graph [  0.00s]
+13:24:25.146002 [info ]: Started rendering (1 nodes)
+13:24:25.146028 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:24:25.146037 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:24:25.146565 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:24:25.146674 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:24:25.146700 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:24:25.146718 [info ]: Started analyzing (1 nodes)
+13:24:25.146731 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:24:25.151252 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:24:25.151272 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:24:25.151278 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.00s]
+13:24:25.159093 [info ]: Started scheduling
+13:24:25.159135 [info ]: Finished scheduling [  0.00s]
+13:24:25.159224 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [125ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:24:25.159564 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:25:13.864944Z | 86cc2527-e790-4fe3-a848-6a42316f0343 ====================
+13:25:13.864993 [info ]: Started loading project
+13:25:13.865674 [info ]: Loading ~/.dbt/profiles.yml
+13:25:13.876936 [info ]: Started parsing
+13:25:13.939741 [info ]: Finished loading project [  0.07s]
+13:25:13.943399 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:25:14.118919 [info ]: Finished parsing [  0.24s]
+13:25:14.122097 [info ]: Cached model count updated: 1 models (estimate)
+13:25:14.122111 [info ]: Cached model count updated: 1 models (accurate)
+13:25:14.122136 [info ]: Started scheduling
+13:25:14.122173 [info ]: Finished scheduling [  0.00s]
+13:25:14.122182 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:25:14.157269 [info ]: Started building task graph
+13:25:14.157310 [info ]: Finished building task graph [  0.00s]
+13:25:14.179720 [info ]: Started rendering (1 nodes)
+13:25:14.179742 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:25:14.179751 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:25:14.185596 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:25:14.185744 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:14.185763 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:25:14.185781 [info ]: Started analyzing (1 nodes)
+13:25:14.185788 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:25:14.189615 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:14.189631 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:25:14.189638 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.01s]
+13:25:14.196676 [info ]: Started scheduling
+13:25:14.196725 [info ]: Finished scheduling [  0.00s]
+13:25:14.197783 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [332ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:25:14.197846 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:25:15.768212Z | 850ab3e4-998f-438d-b5da-6c2f4728f74b ====================
+13:25:15.768259 [info ]: Started loading project
+13:25:15.769050 [info ]: Loading ~/.dbt/profiles.yml
+13:25:15.775547 [info ]: Finished loading project [  0.01s]
+13:25:15.811413 [info ]: Cached model count updated: 1 models (estimate)
+13:25:15.811437 [info ]: Cached model count updated: 1 models (accurate)
+13:25:15.811460 [info ]: Started scheduling
+13:25:15.811497 [info ]: Finished scheduling [  0.00s]
+13:25:15.811512 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:25:15.855760 [info ]: Started building task graph
+13:25:15.855810 [info ]: Finished building task graph [  0.00s]
+13:25:15.883167 [info ]: Started rendering (1 nodes)
+13:25:15.883200 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:25:15.883210 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:25:15.883819 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:25:15.883928 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:15.883947 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:25:15.883961 [info ]: Started analyzing (1 nodes)
+13:25:15.883967 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:25:15.888337 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:15.888355 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:25:15.888363 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.00s]
+13:25:15.896050 [info ]: Started scheduling
+13:25:15.896092 [info ]: Finished scheduling [  0.00s]
+13:25:15.896195 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [127ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:25:15.896540 [info ]: Cached model count updated: 1 models (accurate)
+13:25:23.787671 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T13:25:25.418796Z | 076eef4f-b1c6-4ac5-ae25-a7a12b003315 ====================
+13:25:25.418868 [info ]: Started loading project
+13:25:25.419545 [info ]: Loading ~/.dbt/profiles.yml
+13:25:25.426433 [info ]: Finished loading project [  0.01s]
+13:25:25.468937 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [50ms]
+13:25:25.469022 [info ]: Cached model count updated: 1 models (accurate)
+13:25:35.269041 [debug]: Query executed on node unknown:
+select * from (
+WITH paid_orders as (select Orders.ID as order_id,
+        Orders.USER_ID    as customer_id,
+        Orders.ORDER_DATE AS order_placed_at,
+            Orders.STATUS AS order_status,
+        p.total_amount_paid,
+        p.payment_finalized_date,
+        C.FIRST_NAME    as customer_first_name,
+            C.LAST_NAME as customer_last_name
+    FROM raw.jaffle_shop.orders as Orders
+    left join (select ORDERID as order_id, max(CREATED) as payment_finalized_date, sum(AMOUNT) / 100.0 as total_amount_paid
+from raw.stripe.payments
+where STATUS <> 'fail'
+group by 1) p ON orders.ID = p.order_id
+left join raw.jaffle_shop.customers C on orders.USER_ID = C.ID ),
+
+customer_orders 
+    as (select C.ID as customer_id
+        , min(ORDER_DATE) as first_order_date
+        , max(ORDER_DATE) as most_recent_order_date
+        , count(ORDERS.ID) AS number_of_orders
+    from raw.jaffle_shop.customers C 
+    left join raw.jaffle_shop.orders as Orders
+    on orders.USER_ID = C.ID 
+    group by 1)
+SELECT * FROM customer_orders
+) limit 1000
+==================== 2026-10-20T13:25:35.348845Z | 3ff174b2-889b-4194-8321-ebbadd690d13 ====================
+13:25:35.348938 [info ]: Started loading project
+13:25:35.349754 [info ]: Loading ~/.dbt/profiles.yml
+13:25:35.356676 [info ]: Finished loading project [  0.01s]
+13:25:35.397721 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [48ms]
+13:25:35.397817 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:25:37.033810Z | 567ab2ed-d1cd-446f-a54a-8a9a10825b21 ====================
+13:25:37.033894 [info ]: Started loading project
+13:25:37.034696 [info ]: Loading ~/.dbt/profiles.yml
+13:25:37.041622 [info ]: Finished loading project [  0.01s]
+13:25:37.076688 [info ]: Cached model count updated: 1 models (estimate)
+13:25:37.076714 [info ]: Cached model count updated: 1 models (accurate)
+13:25:37.076736 [info ]: Started scheduling
+13:25:37.076771 [info ]: Finished scheduling [  0.00s]
+13:25:37.076785 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:25:37.121485 [info ]: Started building task graph
+13:25:37.121522 [info ]: Finished building task graph [  0.00s]
+13:25:37.148208 [info ]: Started rendering (1 nodes)
+13:25:37.148237 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:25:37.148247 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:25:37.148821 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:25:37.148976 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:37.149002 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:25:37.149020 [info ]: Started analyzing (1 nodes)
+13:25:37.149028 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:25:37.154090 [debug]: Finished analyzing [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:25:37.154114 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:25:37.154121 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (view) [1 of 1 in 0.01s]
+13:25:37.162153 [info ]: Started scheduling
+13:25:37.162190 [info ]: Finished scheduling [  0.00s]
+13:25:37.162309 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [128ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:25:37.162740 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:27:38.859114Z | a2d730e5-7c5e-4869-b248-7b0512426965 ====================
+13:27:38.859193 [info ]: Started loading project
+13:27:38.859891 [info ]: Loading ~/.dbt/profiles.yml
+13:27:38.873164 [info ]: Started parsing
+13:27:38.948747 [info ]: Finished loading project [  0.09s]
+13:27:38.952868 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:27:39.126647 [info ]: Finished parsing [  0.25s]
+13:27:39.129705 [info ]: Cached model count updated: 1 models (estimate)
+13:27:39.129720 [info ]: Cached model count updated: 1 models (accurate)
+13:27:39.129743 [info ]: Started scheduling
+13:27:39.129782 [info ]: Finished scheduling [  0.00s]
+13:27:39.129792 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:27:39.164739 [info ]: Started building task graph
+13:27:39.164776 [info ]: Finished building task graph [  0.00s]
+13:27:39.188714 [info ]: Started rendering (1 nodes)
+13:27:39.188754 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:27:39.188770 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:27:39.194531 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:27:39.194669 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:27:39.194698 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:27:39.194723 [info ]: Started analyzing (1 nodes)
+13:27:39.194737 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:27:39.198499 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:27:39.198516 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:27:39.198523 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:27:39.205481 [info ]: Started scheduling
+13:27:39.205532 [info ]: Finished scheduling [  0.00s]
+13:27:39.206960 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [347ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:27:39.207025 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:27:40.838875Z | ed967431-a5e6-4c71-847d-9788dbf80799 ====================
+13:27:40.838943 [info ]: Started loading project
+13:27:40.839656 [info ]: Loading ~/.dbt/profiles.yml
+13:27:40.847447 [info ]: Finished loading project [  0.01s]
+13:27:40.882544 [info ]: Cached model count updated: 1 models (estimate)
+13:27:40.882575 [info ]: Cached model count updated: 1 models (accurate)
+13:27:40.882599 [info ]: Started scheduling
+13:27:40.882635 [info ]: Finished scheduling [  0.00s]
+13:27:40.882650 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:27:40.927384 [info ]: Started building task graph
+13:27:40.927432 [info ]: Finished building task graph [  0.00s]
+13:27:40.955030 [info ]: Started rendering (1 nodes)
+13:27:40.955065 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:27:40.955082 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:27:40.955628 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:27:40.955723 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:27:40.955743 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:27:40.955759 [info ]: Started analyzing (1 nodes)
+13:27:40.955766 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:27:40.960335 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:27:40.960363 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:27:40.960373 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:27:40.969440 [info ]: Started scheduling
+13:27:40.969493 [info ]: Finished scheduling [  0.00s]
+13:27:40.969611 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [130ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:27:40.969981 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:30:08.379107Z | 06cc2a6d-e6a6-4eae-b2f1-d8ee372168b0 ====================
+13:30:08.379180 [info ]: Started loading project
+13:30:08.379870 [info ]: Loading ~/.dbt/profiles.yml
+13:30:08.387819 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:30:08.389371Z | d036af02-46fd-4536-b8dc-123c3f9702e2 ====================
+13:30:08.389410 [info ]: Started loading project
+13:30:08.390088 [info ]: Loading ~/.dbt/profiles.yml
+13:30:08.398805 [info ]: Loading packages.yml
+13:30:08.399608 [debug]:    Started loading packages
+13:30:08.415634 [debug]:     Loaded [  0.02s] packages
+13:30:08.416902 [info ]: Finished loading project [  0.03s]
+13:30:08.417162 [info ]: Started parsing
+13:30:08.480360 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:30:08.658558 [info ]: Finished parsing [  0.24s]
+13:30:08.659275 [info ]: Cached model count updated: 1 models (estimate)
+13:30:08.659289 [info ]: Cached model count updated: 1 models (accurate)
+13:30:08.659309 [info ]: Started scheduling
+13:30:08.659331 [info ]: Finished scheduling [  0.00s]
+13:30:08.659340 [debug]: Compilation - 0 nodes selected: {}
+13:30:08.659379 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:30:08.659404 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:30:08.659412 [info ]: Started scheduling
+13:30:08.659436 [info ]: Finished scheduling [  0.00s]
+13:30:08.699417 [info ]: Started building task graph
+13:30:08.699451 [info ]: Finished building task graph [  0.00s]
+13:30:08.729890 [info ]: Started scheduling
+13:30:08.729942 [info ]: Finished scheduling [  0.00s]
+13:30:08.730119 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [340ms]
+13:30:08.730175 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [351ms]
+13:30:08.733702 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:30:10.170384Z | 0cc48af1-e2a9-4482-9c5d-ed4f99dd69fe ====================
+13:30:10.170455 [info ]: Started loading project
+13:30:10.171333 [info ]: Loading ~/.dbt/profiles.yml
+13:30:10.177715 [info ]: Finished loading project [  0.01s]
+13:30:10.215044 [info ]: Cached model count updated: 1 models (estimate)
+13:30:10.215067 [info ]: Cached model count updated: 1 models (accurate)
+13:30:10.215090 [info ]: Started scheduling
+13:30:10.215125 [info ]: Finished scheduling [  0.00s]
+13:30:10.215138 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:30:10.256292 [info ]: Started building task graph
+13:30:10.256334 [info ]: Finished building task graph [  0.00s]
+13:30:10.279473 [info ]: Started rendering (1 nodes)
+13:30:10.279505 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:30:10.279517 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:30:10.285706 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:30:10.285909 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:10.285938 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:30:10.285963 [info ]: Started analyzing (1 nodes)
+13:30:10.285978 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:30:10.290929 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:10.290953 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:30:10.290963 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:30:10.298528 [info ]: Started scheduling
+13:30:10.298573 [info ]: Finished scheduling [  0.00s]
+13:30:10.298678 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [128ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:30:10.298988 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:30:12.233491Z | a8b3c01d-0233-44be-a4bf-0252368a54cd ====================
+13:30:12.233563 [info ]: Started loading project
+13:30:12.234265 [info ]: Loading ~/.dbt/profiles.yml
+13:30:12.240453 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:30:12.242055Z | bbed3751-2ceb-46d4-ba70-76385b8ec041 ====================
+13:30:12.242099 [info ]: Started loading project
+13:30:12.242773 [info ]: Loading ~/.dbt/profiles.yml
+13:30:12.251112 [info ]: Loading packages.yml
+13:30:12.251993 [debug]:    Started loading packages
+13:30:12.266647 [debug]:     Loaded [  0.01s] packages
+13:30:12.267819 [info ]: Finished loading project [  0.03s]
+13:30:12.268066 [info ]: Started parsing
+13:30:12.332237 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:30:12.518727 [info ]: Finished parsing [  0.25s]
+13:30:12.519321 [info ]: Cached model count updated: 1 models (estimate)
+13:30:12.519337 [info ]: Cached model count updated: 1 models (accurate)
+13:30:12.519367 [info ]: Started scheduling
+13:30:12.519392 [info ]: Finished scheduling [  0.00s]
+13:30:12.519406 [debug]: Compilation - 0 nodes selected: {}
+13:30:12.519424 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:30:12.519438 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:30:12.519445 [info ]: Started scheduling
+13:30:12.519463 [info ]: Finished scheduling [  0.00s]
+13:30:12.559699 [info ]: Started building task graph
+13:30:12.559730 [info ]: Finished building task graph [  0.00s]
+13:30:12.590560 [info ]: Started scheduling
+13:30:12.590606 [info ]: Finished scheduling [  0.00s]
+13:30:12.590764 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [348ms]
+13:30:12.590819 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [357ms]
+13:30:12.593278 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:30:12.912902Z | 719e54af-6d6f-434a-b52e-cfcdb8289c98 ====================
+13:30:12.912969 [info ]: Started loading project
+13:30:12.913596 [info ]: Loading ~/.dbt/profiles.yml
+13:30:12.919202 [info ]: Finished loading project [  0.01s]
+13:30:12.950338 [info ]: Cached model count updated: 1 models (estimate)
+13:30:12.950359 [info ]: Cached model count updated: 1 models (accurate)
+13:30:12.950386 [info ]: Started scheduling
+13:30:12.950427 [info ]: Finished scheduling [  0.00s]
+13:30:12.950443 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:30:12.989629 [info ]: Started building task graph
+13:30:12.989671 [info ]: Finished building task graph [  0.00s]
+13:30:13.012389 [info ]: Started rendering (1 nodes)
+13:30:13.012420 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:30:13.012429 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:30:13.018564 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:30:13.018731 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:13.018765 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:30:13.018793 [info ]: Started analyzing (1 nodes)
+13:30:13.018807 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:30:13.022986 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:13.023011 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:30:13.023019 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:30:13.030695 [info ]: Started scheduling
+13:30:13.030744 [info ]: Finished scheduling [  0.00s]
+13:30:13.030850 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [117ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:30:13.030910 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:30:14.548402Z | afd9556b-0b06-404d-a1ce-8f9842d74402 ====================
+13:30:14.548470 [info ]: Started loading project
+13:30:14.549183 [info ]: Loading ~/.dbt/profiles.yml
+13:30:14.555827 [info ]: Finished loading project [  0.01s]
+13:30:14.592697 [info ]: Cached model count updated: 1 models (estimate)
+13:30:14.592721 [info ]: Cached model count updated: 1 models (accurate)
+13:30:14.592745 [info ]: Started scheduling
+13:30:14.592781 [info ]: Finished scheduling [  0.00s]
+13:30:14.592795 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:30:14.636658 [info ]: Started building task graph
+13:30:14.636702 [info ]: Finished building task graph [  0.00s]
+13:30:14.661823 [info ]: Started rendering (1 nodes)
+13:30:14.661853 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:30:14.661863 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:30:14.662538 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:30:14.662647 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:14.662674 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:30:14.662690 [info ]: Started analyzing (1 nodes)
+13:30:14.662696 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:30:14.666677 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:30:14.666705 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:30:14.666716 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:30:14.674606 [info ]: Started scheduling
+13:30:14.674654 [info ]: Finished scheduling [  0.00s]
+13:30:14.674737 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [126ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:30:14.675066 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:32:58.903580Z | 47794a54-52f5-47f7-9b0b-265d35f8a00d ====================
+13:32:58.903675 [info ]: Started loading project
+13:32:58.904373 [info ]: Loading ~/.dbt/profiles.yml
+13:32:58.910506 [info ]: Finished loading project [  0.01s]
+13:32:58.949400 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [45ms]
+13:32:58.949472 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:33:00.566842Z | f4e39e0f-4c1c-427e-b5ea-db78a19cd08f ====================
+13:33:00.566912 [info ]: Started loading project
+13:33:00.567618 [info ]: Loading ~/.dbt/profiles.yml
+13:33:00.573832 [info ]: Finished loading project [  0.01s]
+13:33:00.608824 [info ]: Cached model count updated: 1 models (estimate)
+13:33:00.608848 [info ]: Cached model count updated: 1 models (accurate)
+13:33:00.608875 [info ]: Started scheduling
+13:33:00.608923 [info ]: Finished scheduling [  0.00s]
+13:33:00.608939 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:33:00.654697 [info ]: Started building task graph
+13:33:00.654746 [info ]: Finished building task graph [  0.00s]
+13:33:00.682032 [info ]: Started rendering (1 nodes)
+13:33:00.682066 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:33:00.682077 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:33:00.682993 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:33:00.683099 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:33:00.683117 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:33:00.683133 [info ]: Started analyzing (1 nodes)
+13:33:00.683140 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:33:00.687435 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:33:00.687459 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:33:00.687467 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:33:00.695201 [info ]: Started scheduling
+13:33:00.695249 [info ]: Finished scheduling [  0.00s]
+13:33:00.695370 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [128ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:33:00.695743 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:38:19.667425Z | d877a68d-ac30-4333-b64d-f8a8d972b4de ====================
+13:38:19.667501 [info ]: Started loading project
+13:38:19.668202 [info ]: Loading ~/.dbt/profiles.yml
+13:38:19.674571 [info ]: Finished loading project [  0.01s]
+13:38:19.714138 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [46ms]
+13:38:19.714211 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:38:21.365944Z | 238dc06f-8981-4a2d-a886-0e1f4fc8ac93 ====================
+13:38:21.366012 [info ]: Started loading project
+13:38:21.366717 [info ]: Loading ~/.dbt/profiles.yml
+13:38:21.372919 [info ]: Finished loading project [  0.01s]
+13:38:21.406313 [info ]: Cached model count updated: 1 models (estimate)
+13:38:21.406335 [info ]: Cached model count updated: 1 models (accurate)
+13:38:21.406360 [info ]: Started scheduling
+13:38:21.406398 [info ]: Finished scheduling [  0.00s]
+13:38:21.406412 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:38:21.450937 [info ]: Started building task graph
+13:38:21.450988 [info ]: Finished building task graph [  0.00s]
+13:38:21.478760 [info ]: Started rendering (1 nodes)
+13:38:21.478794 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:38:21.478804 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:38:21.479732 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:38:21.479849 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:38:21.479878 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:38:21.479900 [info ]: Started analyzing (1 nodes)
+13:38:21.479912 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:38:21.484383 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:38:21.484403 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:38:21.484410 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:38:21.491897 [info ]: Started scheduling
+13:38:21.491938 [info ]: Finished scheduling [  0.00s]
+13:38:21.492027 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [126ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:38:21.492363 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:38:34.650900Z | de6a9e24-1332-4e9a-907c-3051c832be0d ====================
+13:38:34.650970 [info ]: Started loading project
+13:38:34.651633 [info ]: Loading ~/.dbt/profiles.yml
+13:38:34.658108 [info ]: Finished loading project [  0.01s]
+13:38:34.697547 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [46ms]
+13:38:34.697612 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:38:36.294165Z | 301bff34-d2ef-4c75-a1c4-263a0e217761 ====================
+13:38:36.294231 [info ]: Started loading project
+13:38:36.294929 [info ]: Loading ~/.dbt/profiles.yml
+13:38:36.301849 [info ]: Finished loading project [  0.01s]
+13:38:36.337652 [info ]: Cached model count updated: 1 models (estimate)
+13:38:36.337676 [info ]: Cached model count updated: 1 models (accurate)
+13:38:36.337699 [info ]: Started scheduling
+13:38:36.337734 [info ]: Finished scheduling [  0.00s]
+13:38:36.337751 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:38:36.382096 [info ]: Started building task graph
+13:38:36.382143 [info ]: Finished building task graph [  0.00s]
+13:38:36.410058 [info ]: Started rendering (1 nodes)
+13:38:36.410087 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:38:36.410097 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:38:36.411043 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:38:36.411166 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:38:36.411196 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:38:36.411216 [info ]: Started analyzing (1 nodes)
+13:38:36.411224 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:38:36.416051 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:38:36.416087 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:38:36.416098 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:38:36.424451 [info ]: Started scheduling
+13:38:36.424504 [info ]: Finished scheduling [  0.00s]
+13:38:36.424599 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [130ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:38:36.424976 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:21.629183Z | 57358400-7327-4ed6-964a-7bbf08208da8 ====================
+13:39:21.629257 [info ]: Started loading project
+13:39:21.629968 [info ]: Loading ~/.dbt/profiles.yml
+13:39:21.636761 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:39:21.638092Z | 3ece11eb-0111-428b-8fb0-193cb3f8242c ====================
+13:39:21.638123 [info ]: Started loading project
+13:39:21.638694 [info ]: Loading ~/.dbt/profiles.yml
+13:39:21.646807 [info ]: Loading packages.yml
+13:39:21.647625 [debug]:    Started loading packages
+13:39:21.662840 [debug]:     Loaded [  0.02s] packages
+13:39:21.663934 [info ]: Finished loading project [  0.03s]
+13:39:21.664175 [info ]: Started parsing
+13:39:21.724529 [debug]: Finished parsing models/refactoring_tutorial/staging/sources.yml [  0.00s]
+13:39:21.725577 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:39:21.911621 [info ]: Finished parsing [  0.25s]
+13:39:21.912670 [info ]: Cached model count updated: 1 models (estimate)
+13:39:21.912692 [info ]: Cached model count updated: 1 models (accurate)
+13:39:21.912711 [info ]: Started scheduling
+13:39:21.912734 [info ]: Finished scheduling [  0.00s]
+13:39:21.912744 [debug]: Compilation - 0 nodes selected: {}
+13:39:21.912760 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:39:21.912775 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:39:21.912783 [info ]: Started scheduling
+13:39:21.912798 [info ]: Finished scheduling [  0.00s]
+13:39:21.952184 [info ]: Started building task graph
+13:39:21.952225 [info ]: Finished building task graph [  0.00s]
+13:39:21.982506 [info ]: Started scheduling
+13:39:21.982553 [info ]: Finished scheduling [  0.00s]
+13:39:21.982699 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [344ms]
+13:39:21.982750 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [353ms]
+13:39:21.985612 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:22.312137Z | e59fac51-8589-4d95-b755-df65485b8ecc ====================
+13:39:22.312206 [info ]: Started loading project
+13:39:22.312891 [info ]: Loading ~/.dbt/profiles.yml
+13:39:22.319635 [info ]: Finished loading project [  0.01s]
+13:39:22.357402 [info ]: Cached model count updated: 1 models (estimate)
+13:39:22.357427 [info ]: Cached model count updated: 1 models (accurate)
+13:39:22.357461 [info ]: Started scheduling
+13:39:22.357510 [info ]: Finished scheduling [  0.00s]
+13:39:22.357530 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:39:22.404360 [info ]: Started building task graph
+13:39:22.404422 [info ]: Finished building task graph [  0.00s]
+13:39:22.433659 [info ]: Started rendering (1 nodes)
+13:39:22.433693 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:39:22.433706 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:39:22.440291 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:39:22.440467 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:22.440489 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:39:22.440509 [info ]: Started analyzing (1 nodes)
+13:39:22.440516 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:39:22.445157 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:22.445190 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:22.445200 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:39:22.453411 [info ]: Started scheduling
+13:39:22.453465 [info ]: Finished scheduling [  0.00s]
+13:39:22.453590 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [141ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:39:22.453669 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:24.015477Z | dc9b8144-d0c1-4c66-a65e-5a1ec775f44f ====================
+13:39:24.015550 [info ]: Started loading project
+13:39:24.016360 [info ]: Loading ~/.dbt/profiles.yml
+13:39:24.023366 [info ]: Finished loading project [  0.01s]
+13:39:24.060579 [info ]: Cached model count updated: 1 models (estimate)
+13:39:24.060611 [info ]: Cached model count updated: 1 models (accurate)
+13:39:24.060636 [info ]: Started scheduling
+13:39:24.060674 [info ]: Finished scheduling [  0.00s]
+13:39:24.060691 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:39:24.104738 [info ]: Started building task graph
+13:39:24.104798 [info ]: Finished building task graph [  0.00s]
+13:39:24.131984 [info ]: Started rendering (1 nodes)
+13:39:24.132020 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:39:24.132031 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:39:24.132791 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:39:24.132876 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:24.132894 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:24.132912 [info ]: Started analyzing (1 nodes)
+13:39:24.132918 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:39:24.137496 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:24.137525 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:24.137534 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:39:24.143883 [info ]: Started scheduling
+13:39:24.143933 [info ]: Finished scheduling [  0.00s]
+13:39:24.144026 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [128ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:39:24.144360 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:54.913814Z | 9300a184-a57d-4683-9410-78982bce391a ====================
+13:39:54.913863 [info ]: Started loading project
+13:39:54.914517 [info ]: Loading ~/.dbt/profiles.yml
+13:39:54.920017 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:39:54.921235Z | 10eaf01b-840e-49d5-a2cd-025a2b5f81a9 ====================
+13:39:54.921269 [info ]: Started loading project
+13:39:54.921859 [info ]: Loading ~/.dbt/profiles.yml
+13:39:54.928984 [info ]: Loading packages.yml
+13:39:54.929621 [debug]:    Started loading packages
+13:39:54.943176 [debug]:     Loaded [  0.01s] packages
+13:39:54.944164 [info ]: Finished loading project [  0.02s]
+13:39:54.944386 [info ]: Started parsing
+13:39:54.995674 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:39:55.170799 [info ]: Finished parsing [  0.23s]
+13:39:55.171750 [info ]: Cached model count updated: 1 models (estimate)
+13:39:55.171765 [info ]: Cached model count updated: 1 models (accurate)
+13:39:55.171784 [info ]: Started scheduling
+13:39:55.171806 [info ]: Finished scheduling [  0.00s]
+13:39:55.171816 [debug]: Compilation - 0 nodes selected: {}
+13:39:55.171831 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:39:55.171844 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:39:55.171852 [info ]: Started scheduling
+13:39:55.171869 [info ]: Finished scheduling [  0.00s]
+13:39:55.211418 [info ]: Started building task graph
+13:39:55.211452 [info ]: Finished building task graph [  0.00s]
+13:39:55.243090 [info ]: Started scheduling
+13:39:55.243137 [info ]: Finished scheduling [  0.00s]
+13:39:55.243278 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [322ms]
+13:39:55.243326 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [329ms]
+13:39:55.246651 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:55.583428Z | addfc792-c854-499e-85f5-9505b3ce0234 ====================
+13:39:55.583495 [info ]: Started loading project
+13:39:55.584160 [info ]: Loading ~/.dbt/profiles.yml
+13:39:55.590177 [info ]: Finished loading project [  0.01s]
+13:39:55.623353 [info ]: Cached model count updated: 1 models (estimate)
+13:39:55.623375 [info ]: Cached model count updated: 1 models (accurate)
+13:39:55.623401 [info ]: Started scheduling
+13:39:55.623441 [info ]: Finished scheduling [  0.00s]
+13:39:55.623455 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:39:55.665686 [info ]: Started building task graph
+13:39:55.665738 [info ]: Finished building task graph [  0.00s]
+13:39:55.692513 [info ]: Started rendering (1 nodes)
+13:39:55.692546 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:39:55.692557 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:39:55.699145 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:39:55.699330 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:55.699352 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:39:55.699374 [info ]: Started analyzing (1 nodes)
+13:39:55.699382 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:39:55.703279 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:55.703317 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:55.703330 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:39:55.709344 [info ]: Started scheduling
+13:39:55.709404 [info ]: Finished scheduling [  0.00s]
+13:39:55.709554 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [126ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:39:55.709626 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:39:57.195614Z | 38db57e8-3ef3-401a-b971-321db708607e ====================
+13:39:57.195677 [info ]: Started loading project
+13:39:57.196630 [info ]: Loading ~/.dbt/profiles.yml
+13:39:57.203118 [info ]: Finished loading project [  0.01s]
+13:39:57.236005 [info ]: Cached model count updated: 1 models (estimate)
+13:39:57.236036 [info ]: Cached model count updated: 1 models (accurate)
+13:39:57.236060 [info ]: Started scheduling
+13:39:57.236095 [info ]: Finished scheduling [  0.00s]
+13:39:57.236109 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:39:57.282319 [info ]: Started building task graph
+13:39:57.282365 [info ]: Finished building task graph [  0.00s]
+13:39:57.311666 [info ]: Started rendering (1 nodes)
+13:39:57.311701 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:39:57.311712 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:39:57.312287 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:39:57.312433 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:57.312469 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:57.312499 [info ]: Started analyzing (1 nodes)
+13:39:57.312513 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:39:57.317060 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:39:57.317088 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:39:57.317095 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:39:57.322976 [info ]: Started scheduling
+13:39:57.323013 [info ]: Finished scheduling [  0.00s]
+13:39:57.323098 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [127ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:39:57.323438 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:05.218209Z | 55db1404-f7ce-4d3f-b91b-b9edec3246de ====================
+13:40:05.218260 [info ]: Started loading project
+13:40:05.219272 [info ]: Loading ~/.dbt/profiles.yml
+13:40:05.225707 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:40:05.227027Z | 353bc8a8-ed4a-42ba-aa32-6728eba7fef6 ====================
+13:40:05.227057 [info ]: Started loading project
+13:40:05.227632 [info ]: Loading ~/.dbt/profiles.yml
+13:40:05.235344 [info ]: Loading packages.yml
+13:40:05.236099 [debug]:    Started loading packages
+13:40:05.251652 [debug]:     Loaded [  0.02s] packages
+13:40:05.252739 [info ]: Finished loading project [  0.03s]
+13:40:05.252977 [info ]: Started parsing
+13:40:05.307624 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:40:05.308660 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:40:05.476604 [info ]: Finished parsing [  0.22s]
+13:40:05.477630 [info ]: Cached model count updated: 1 models (estimate)
+13:40:05.477642 [info ]: Cached model count updated: 1 models (accurate)
+13:40:05.477659 [info ]: Started scheduling
+13:40:05.477680 [info ]: Finished scheduling [  0.00s]
+13:40:05.477690 [debug]: Compilation - 0 nodes selected: {}
+13:40:05.477705 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:40:05.477721 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:40:05.477728 [info ]: Started scheduling
+13:40:05.477745 [info ]: Finished scheduling [  0.00s]
+13:40:05.517635 [info ]: Started building task graph
+13:40:05.517665 [info ]: Finished building task graph [  0.00s]
+13:40:05.546969 [info ]: Started scheduling
+13:40:05.547016 [info ]: Finished scheduling [  0.00s]
+13:40:05.547150 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [320ms]
+13:40:05.547198 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [328ms]
+13:40:05.549919 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:05.910436Z | bedaf1fe-d4b6-4cfe-b2c3-a271acb05061 ====================
+13:40:05.910518 [info ]: Started loading project
+13:40:05.911311 [info ]: Loading ~/.dbt/profiles.yml
+13:40:05.917978 [info ]: Finished loading project [  0.01s]
+13:40:05.950962 [info ]: Cached model count updated: 1 models (estimate)
+13:40:05.950988 [info ]: Cached model count updated: 1 models (accurate)
+13:40:05.951016 [info ]: Started scheduling
+13:40:05.951059 [info ]: Finished scheduling [  0.00s]
+13:40:05.951073 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:40:05.997138 [info ]: Started building task graph
+13:40:05.997185 [info ]: Finished building task graph [  0.00s]
+13:40:06.026524 [info ]: Started rendering (1 nodes)
+13:40:06.026560 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:40:06.026571 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:40:06.033522 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:40:06.033749 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:06.033781 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:40:06.033809 [info ]: Started analyzing (1 nodes)
+13:40:06.033819 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:40:06.037985 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:06.038014 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:06.038025 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:40:06.046758 [info ]: Started scheduling
+13:40:06.046813 [info ]: Finished scheduling [  0.00s]
+13:40:06.046931 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [136ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:40:06.046999 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:07.592144Z | aebc79ae-a83a-4581-8a19-82599fbc30cf ====================
+13:40:07.592211 [info ]: Started loading project
+13:40:07.593096 [info ]: Loading ~/.dbt/profiles.yml
+13:40:07.599853 [info ]: Finished loading project [  0.01s]
+13:40:07.632609 [info ]: Cached model count updated: 1 models (estimate)
+13:40:07.632633 [info ]: Cached model count updated: 1 models (accurate)
+13:40:07.632656 [info ]: Started scheduling
+13:40:07.632692 [info ]: Finished scheduling [  0.00s]
+13:40:07.632716 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:40:07.676856 [info ]: Started building task graph
+13:40:07.676898 [info ]: Finished building task graph [  0.00s]
+13:40:07.705254 [info ]: Started rendering (1 nodes)
+13:40:07.705285 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:40:07.705295 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:40:07.705859 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:40:07.705932 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:07.705952 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:07.705975 [info ]: Started analyzing (1 nodes)
+13:40:07.705990 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:40:07.710235 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:07.710254 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:07.710262 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:40:07.716387 [info ]: Started scheduling
+13:40:07.716426 [info ]: Finished scheduling [  0.00s]
+13:40:07.716510 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [124ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:40:07.716884 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:19.162397Z | 2a203601-429a-4118-9dc9-b0607f4a1b32 ====================
+13:40:19.162449 [info ]: Started loading project
+13:40:19.163128 [info ]: Loading ~/.dbt/profiles.yml
+13:40:19.170512 [info ]: Finished loading project [  0.01s]
+==================== 2026-10-20T13:40:19.172041Z | a448adf7-6744-488d-9343-e9f8c0e643b9 ====================
+13:40:19.172092 [info ]: Started loading project
+13:40:19.172810 [info ]: Loading ~/.dbt/profiles.yml
+13:40:19.181517 [info ]: Loading packages.yml
+13:40:19.182181 [debug]:    Started loading packages
+13:40:19.198009 [debug]:     Loaded [  0.02s] packages
+13:40:19.199143 [info ]: Finished loading project [  0.03s]
+13:40:19.199397 [info ]: Started parsing
+13:40:19.257160 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:40:19.257305 [debug]: Finished parsing models/refactoring_tutorial/staging/stripe/sources.yml [  0.00s]
+13:40:19.258483 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:40:19.465572 [info ]: Finished parsing [  0.27s]
+13:40:19.466622 [info ]: Cached model count updated: 1 models (estimate)
+13:40:19.466637 [info ]: Cached model count updated: 1 models (accurate)
+13:40:19.466655 [info ]: Started scheduling
+13:40:19.466679 [info ]: Finished scheduling [  0.00s]
+13:40:19.466687 [debug]: Compilation - 0 nodes selected: {}
+13:40:19.466703 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+13:40:19.466724 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:40:19.466733 [info ]: Started scheduling
+13:40:19.466755 [info ]: Finished scheduling [  0.00s]
+13:40:19.509710 [info ]: Started building task graph
+13:40:19.509741 [info ]: Finished building task graph [  0.00s]
+13:40:19.541599 [info ]: Started scheduling
+13:40:19.541646 [info ]: Finished scheduling [  0.00s]
+13:40:19.541797 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [369ms]
+13:40:19.541852 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [379ms]
+13:40:19.544518 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:19.903125Z | 0da94f5c-c3f5-4ee0-a176-e1449e181346 ====================
+13:40:19.903185 [info ]: Started loading project
+13:40:19.903843 [info ]: Loading ~/.dbt/profiles.yml
+13:40:19.912791 [info ]: Finished loading project [  0.01s]
+13:40:19.946021 [info ]: Cached model count updated: 1 models (estimate)
+13:40:19.946043 [info ]: Cached model count updated: 1 models (accurate)
+13:40:19.946067 [info ]: Started scheduling
+13:40:19.946106 [info ]: Finished scheduling [  0.00s]
+13:40:19.946119 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:40:19.984231 [info ]: Started building task graph
+13:40:19.984275 [info ]: Finished building task graph [  0.00s]
+13:40:20.008034 [info ]: Started rendering (1 nodes)
+13:40:20.008063 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:40:20.008074 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:40:20.014163 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:40:20.014321 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:20.014339 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:40:20.014359 [info ]: Started analyzing (1 nodes)
+13:40:20.014365 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:40:20.018149 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:20.018165 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:20.018172 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:40:20.023628 [info ]: Started scheduling
+13:40:20.023663 [info ]: Finished scheduling [  0.00s]
+13:40:20.023764 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [120ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:40:20.023812 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:40:21.513923Z | 0d17338d-08d3-4860-9355-19fc16d26a1b ====================
+13:40:21.513971 [info ]: Started loading project
+13:40:21.514608 [info ]: Loading ~/.dbt/profiles.yml
+13:40:21.520674 [info ]: Finished loading project [  0.01s]
+13:40:21.549956 [info ]: Cached model count updated: 1 models (estimate)
+13:40:21.549980 [info ]: Cached model count updated: 1 models (accurate)
+13:40:21.550003 [info ]: Started scheduling
+13:40:21.550035 [info ]: Finished scheduling [  0.00s]
+13:40:21.550049 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:40:21.587811 [info ]: Started building task graph
+13:40:21.587855 [info ]: Finished building task graph [  0.00s]
+13:40:21.611258 [info ]: Started rendering (1 nodes)
+13:40:21.611288 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:40:21.611298 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:40:21.611793 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:40:21.611965 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:21.611987 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:21.612012 [info ]: Started analyzing (1 nodes)
+13:40:21.612021 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:40:21.616114 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:40:21.616136 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:40:21.616144 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:40:21.621909 [info ]: Started scheduling
+13:40:21.621952 [info ]: Finished scheduling [  0.00s]
+13:40:21.622031 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [108ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:40:21.622367 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:41:56.157669Z | de4051f8-3531-46ec-9570-b59dc07ad13f ====================
+13:41:56.157718 [info ]: Started loading project
+13:41:56.158432 [info ]: Loading ~/.dbt/profiles.yml
+13:41:56.169742 [info ]: Started parsing
+13:41:56.228913 [info ]: Finished loading project [  0.07s]
+13:41:56.231577 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:41:56.237847 [info ]: Finished parsing [  0.07s]
+13:41:56.239697 [error]: [SerializationError (dbt1013)]: YAML error: name: invalid type: unit value, expected a string
+  --> models\refactoring_tutorial\staging\jaffle_shop\sources.yml:3:11
+13:41:56.239962 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [82ms]
+13:41:56.240042 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:41:57.820575Z | 02fd5529-19d5-4a33-8a84-d14b521ecb0d ====================
+13:41:57.820639 [info ]: Started loading project
+13:41:57.821347 [info ]: Loading ~/.dbt/profiles.yml
+13:41:57.832780 [info ]: Started parsing
+13:41:57.888528 [info ]: Finished loading project [  0.07s]
+13:41:57.891245 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:41:57.896944 [info ]: Finished parsing [  0.06s]
+13:41:57.898676 [error]: [SerializationError (dbt1013)]: YAML error: name: invalid type: unit value, expected a string
+  --> models\refactoring_tutorial\staging\jaffle_shop\sources.yml:3:11
+13:41:57.898900 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [78ms]
+13:41:57.898954 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:42:14.738709Z | 056fe697-b9be-4e8e-a617-6f38089d86eb ====================
+13:42:14.738776 [info ]: Started loading project
+13:42:14.739541 [info ]: Loading ~/.dbt/profiles.yml
+13:42:14.751641 [info ]: Started parsing
+13:42:14.811043 [info ]: Finished loading project [  0.07s]
+13:42:14.813661 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:42:15.013576 [info ]: Finished parsing [  0.26s]
+13:42:15.017244 [info ]: Cached model count updated: 1 models (estimate)
+13:42:15.017260 [info ]: Cached model count updated: 1 models (accurate)
+13:42:15.017286 [info ]: Started scheduling
+13:42:15.017337 [info ]: Finished scheduling [  0.00s]
+13:42:15.017346 [debug]: Compilation - 0 nodes selected: {}
+13:42:15.017369 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+source:dbt-refactoring.jaffle_shop.orders +source:dbt-refactoring.jaffle_shop.customers' does not match any enabled nodes
+13:42:15.017380 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:42:15.054260 [info ]: Started building task graph
+13:42:15.054292 [info ]: Finished building task graph [  0.00s]
+13:42:15.084853 [info ]: Started scheduling
+13:42:15.084915 [info ]: Finished scheduling [  0.00s]
+13:42:15.086000 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [347ms]
+13:42:15.086070 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:42:16.691647Z | 8eb1b1dd-18d4-43b2-9295-d0e1a7f00d94 ====================
+13:42:16.691714 [info ]: Started loading project
+13:42:16.692443 [info ]: Loading ~/.dbt/profiles.yml
+13:42:16.699395 [info ]: Finished loading project [  0.01s]
+13:42:16.734750 [info ]: Cached model count updated: 1 models (estimate)
+13:42:16.734773 [info ]: Cached model count updated: 1 models (accurate)
+13:42:16.734799 [info ]: Started scheduling
+13:42:16.734837 [info ]: Finished scheduling [  0.00s]
+13:42:16.734850 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:42:16.781132 [info ]: Started building task graph
+13:42:16.781178 [info ]: Finished building task graph [  0.00s]
+13:42:16.809985 [info ]: Started rendering (1 nodes)
+13:42:16.810019 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:42:16.810030 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:42:16.810598 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:42:16.810670 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:42:16.810688 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:42:16.810710 [info ]: Started analyzing (1 nodes)
+13:42:16.810717 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:42:16.815050 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:42:16.815072 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:42:16.815084 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:42:16.820964 [info ]: Started scheduling
+13:42:16.821014 [info ]: Finished scheduling [  0.00s]
+13:42:16.821118 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [129ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:42:16.821396 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:43:07.208388Z | c57664a3-5db8-4975-81db-bc4ff89cc74c ====================
+13:43:07.208440 [info ]: Started loading project
+13:43:07.209190 [info ]: Loading ~/.dbt/profiles.yml
+13:43:07.222961 [info ]: Started parsing
+13:43:07.300060 [info ]: Finished loading project [  0.09s]
+13:43:07.302484 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:43:07.511296 [info ]: Finished parsing [  0.29s]
+13:43:07.515112 [info ]: Cached model count updated: 1 models (estimate)
+13:43:07.515137 [info ]: Cached model count updated: 1 models (accurate)
+13:43:07.515173 [info ]: Started scheduling
+13:43:07.515226 [info ]: Finished scheduling [  0.00s]
+13:43:07.515241 [debug]: Compilation - 0 nodes selected: {}
+13:43:07.515265 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+source:dbt-refactoring.jaffle_shop.customers +source:dbt-refactoring.jaffle_shop.orders' does not match any enabled nodes
+13:43:07.515279 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:43:07.554403 [info ]: Started building task graph
+13:43:07.554434 [info ]: Finished building task graph [  0.00s]
+13:43:07.583523 [info ]: Started scheduling
+13:43:07.583593 [info ]: Finished scheduling [  0.00s]
+13:43:07.585530 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [377ms]
+13:43:07.585695 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:43:09.154630Z | 29dfb12a-0472-421e-9b1b-99e722853572 ====================
+13:43:09.154684 [info ]: Started loading project
+13:43:09.155393 [info ]: Loading ~/.dbt/profiles.yml
+13:43:09.161896 [info ]: Finished loading project [  0.01s]
+13:43:09.190533 [info ]: Cached model count updated: 1 models (estimate)
+13:43:09.190555 [info ]: Cached model count updated: 1 models (accurate)
+13:43:09.190579 [info ]: Started scheduling
+13:43:09.190615 [info ]: Finished scheduling [  0.00s]
+13:43:09.190630 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:43:09.227755 [info ]: Started building task graph
+13:43:09.227798 [info ]: Finished building task graph [  0.00s]
+13:43:09.250844 [info ]: Started rendering (1 nodes)
+13:43:09.250883 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:43:09.250897 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:43:09.251812 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:43:09.251902 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:43:09.251921 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:43:09.251939 [info ]: Started analyzing (1 nodes)
+13:43:09.251947 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:43:09.255543 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:43:09.255562 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:43:09.255570 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:43:09.261504 [info ]: Started scheduling
+13:43:09.261550 [info ]: Finished scheduling [  0.00s]
+13:43:09.261654 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [107ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:43:09.261976 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:46:14.659831Z | 341e0576-a806-4d8d-bc9d-57f44eee4e54 ====================
+13:46:14.659895 [info ]: Started loading project
+13:46:14.660659 [info ]: Loading ~/.dbt/profiles.yml
+13:46:14.674839 [info ]: Started parsing
+13:46:14.758849 [info ]: Finished loading project [  0.10s]
+13:46:14.761157 [debug]: Finished parsing models/refactoring_tutorial/staging/stripe/sources.yml [  0.00s]
+13:46:14.933735 [info ]: Finished parsing [  0.26s]
+13:46:14.937683 [info ]: Cached model count updated: 1 models (estimate)
+13:46:14.937703 [info ]: Cached model count updated: 1 models (accurate)
+13:46:14.937731 [info ]: Started scheduling
+13:46:14.937782 [info ]: Finished scheduling [  0.00s]
+13:46:14.937793 [debug]: Compilation - 0 nodes selected: {}
+13:46:14.937822 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+source:dbt-refactoring.stripe.payments' does not match any enabled nodes
+13:46:14.937835 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:46:14.974665 [info ]: Started building task graph
+13:46:14.974696 [info ]: Finished building task graph [  0.00s]
+13:46:15.004857 [info ]: Started scheduling
+13:46:15.004933 [info ]: Finished scheduling [  0.00s]
+13:46:15.006041 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [346ms]
+13:46:15.006111 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:46:15.050942Z | 80c5c535-3adb-4843-b45f-208efef0f3e1 ====================
+13:46:15.050990 [info ]: Started loading project
+13:46:15.051608 [info ]: Loading ~/.dbt/profiles.yml
+13:46:15.057942 [info ]: Finished loading project [  0.01s]
+13:46:15.085946 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [35ms]
+13:46:15.086027 [info ]: Cached model count updated: 1 models (accurate)
+13:46:15.320384 [info ]: Loading ~/.dbt/profiles.yml
+==================== 2026-10-20T13:46:16.603949Z | b82d1b34-91e9-46a4-9aeb-f29b43e1b348 ====================
+13:46:16.604000 [info ]: Started loading project
+13:46:16.604734 [info ]: Loading ~/.dbt/profiles.yml
+13:46:16.612645 [info ]: Finished loading project [  0.01s]
+13:46:16.644781 [info ]: Cached model count updated: 1 models (estimate)
+13:46:16.644805 [info ]: Cached model count updated: 1 models (accurate)
+13:46:16.644833 [info ]: Started scheduling
+13:46:16.644874 [info ]: Finished scheduling [  0.00s]
+13:46:16.644887 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:46:16.689702 [info ]: Started building task graph
+13:46:16.689751 [info ]: Finished building task graph [  0.00s]
+13:46:16.716874 [info ]: Started rendering (1 nodes)
+13:46:16.716907 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:46:16.716920 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:46:16.717482 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:46:16.717558 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:46:16.717573 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:46:16.717588 [info ]: Started analyzing (1 nodes)
+13:46:16.717594 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:46:16.721725 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:46:16.721749 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:46:16.721756 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:46:16.728025 [info ]: Started scheduling
+13:46:16.728078 [info ]: Finished scheduling [  0.00s]
+13:46:16.728194 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [124ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:46:16.728531 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:46:28.285777Z | 542571c9-06ce-4643-b006-5fc230f4cd3b ====================
+13:46:28.285830 [info ]: Started loading project
+13:46:28.286534 [info ]: Loading ~/.dbt/profiles.yml
+13:46:28.294128 [info ]: Finished loading project [  0.01s]
+13:46:28.326246 [info ]: Cached model count updated: 1 models (estimate)
+13:46:28.326269 [info ]: Cached model count updated: 1 models (accurate)
+13:46:28.326299 [info ]: Started scheduling
+13:46:28.326341 [info ]: Finished scheduling [  0.00s]
+13:46:28.326357 [debug]: Compilation - 0 nodes selected: {}
+13:46:28.326378 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+source:dbt-refactoring.stripe.payments' does not match any enabled nodes
+13:46:28.326393 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:46:28.370968 [info ]: Started building task graph
+13:46:28.371008 [info ]: Finished building task graph [  0.00s]
+13:46:28.404399 [info ]: Started scheduling
+13:46:28.404459 [info ]: Finished scheduling [  0.00s]
+13:46:28.404545 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [118ms]
+13:46:28.404609 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:46:30.035543Z | 308f5a00-37d5-4c7c-b846-d8fbb97ea89b ====================
+13:46:30.035597 [info ]: Started loading project
+13:46:30.036314 [info ]: Loading ~/.dbt/profiles.yml
+13:46:30.044118 [info ]: Finished loading project [  0.01s]
+13:46:30.075624 [info ]: Cached model count updated: 1 models (estimate)
+13:46:30.075647 [info ]: Cached model count updated: 1 models (accurate)
+13:46:30.075675 [info ]: Started scheduling
+13:46:30.075714 [info ]: Finished scheduling [  0.00s]
+13:46:30.075730 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:46:30.121082 [info ]: Started building task graph
+13:46:30.121128 [info ]: Finished building task graph [  0.00s]
+13:46:30.149041 [info ]: Started rendering (1 nodes)
+13:46:30.149072 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:46:30.149083 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:46:30.149928 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:46:30.150034 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:46:30.150059 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:46:30.150076 [info ]: Started analyzing (1 nodes)
+13:46:30.150083 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:46:30.154757 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:46:30.154778 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:46:30.154786 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:46:30.160924 [info ]: Started scheduling
+13:46:30.160970 [info ]: Finished scheduling [  0.00s]
+13:46:30.161057 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [125ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:46:30.161366 [info ]: Cached model count updated: 1 models (accurate)
+13:46:51.966113 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T13:49:00.797560Z | ec6545c7-a9cb-487f-9f70-d8cfb8028ed1 ====================
+13:49:00.797612 [info ]: Started loading project
+13:49:00.798330 [info ]: Loading ~/.dbt/profiles.yml
+13:49:00.806445 [info ]: Finished loading project [  0.01s]
+13:49:00.840492 [info ]: Cached model count updated: 1 models (estimate)
+13:49:00.840529 [info ]: Cached model count updated: 1 models (accurate)
+13:49:00.840562 [info ]: Started scheduling
+13:49:00.840608 [info ]: Finished scheduling [  0.00s]
+13:49:00.840623 [debug]: Compilation - 0 nodes selected: {}
+13:49:00.840648 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '+source:dbt-refactoring.stripe.payments' does not match any enabled nodes
+13:49:00.840663 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+13:49:00.883648 [info ]: Started building task graph
+13:49:00.883681 [info ]: Finished building task graph [  0.00s]
+13:49:00.914722 [info ]: Started scheduling
+13:49:00.914771 [info ]: Finished scheduling [  0.00s]
+13:49:00.914852 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'dev' [117ms]
+13:49:00.914905 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:02.529250Z | 1bc05ff3-f10b-4a9b-90c1-b9a79fd1468e ====================
+13:49:02.529299 [info ]: Started loading project
+13:49:02.530019 [info ]: Loading ~/.dbt/profiles.yml
+13:49:02.537632 [info ]: Finished loading project [  0.01s]
+13:49:02.569314 [info ]: Cached model count updated: 1 models (estimate)
+13:49:02.569364 [info ]: Cached model count updated: 1 models (accurate)
+13:49:02.569392 [info ]: Started scheduling
+13:49:02.569431 [info ]: Finished scheduling [  0.00s]
+13:49:02.569449 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:02.615216 [info ]: Started building task graph
+13:49:02.615263 [info ]: Finished building task graph [  0.00s]
+13:49:02.643894 [info ]: Started rendering (1 nodes)
+13:49:02.643928 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:02.643939 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:02.644484 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:49:02.644568 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:02.644587 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:49:02.644603 [info ]: Started analyzing (1 nodes)
+13:49:02.644608 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:02.648604 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:02.648623 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:49:02.648632 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:02.654620 [info ]: Started scheduling
+13:49:02.654668 [info ]: Finished scheduling [  0.00s]
+13:49:02.654755 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [125ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:49:02.655068 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:08.478275Z | c820eb59-5336-4761-944a-37f9e4a8ef24 ====================
+13:49:08.478327 [info ]: Started loading project
+13:49:08.479096 [info ]: Loading ~/.dbt/profiles.yml
+13:49:08.493860 [info ]: Started parsing
+13:49:08.585945 [info ]: Finished loading project [  0.11s]
+13:49:08.588918 [debug]: Failed to render SQL invalid operation: source requires 2 string arguments
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10
+13:49:08.588984 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:49:08.752347 [info ]: Finished parsing [  0.26s]
+13:49:08.756131 [info ]: Cached model count updated: 1 models (estimate)
+13:49:08.756145 [info ]: Cached model count updated: 1 models (accurate)
+13:49:08.756167 [info ]: Started scheduling
+13:49:08.756205 [info ]: Finished scheduling [  0.00s]
+13:49:08.756213 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:08.792946 [info ]: Started building task graph
+13:49:08.792997 [info ]: Finished building task graph [  0.00s]
+13:49:08.817244 [info ]: Started rendering (1 nodes)
+13:49:08.817275 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:08.817284 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:08.818094 [error]: [JinjaError (dbt1501)]: Failed to render SQL missing argument: source macro requires 2 arguments: source name and table name
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10
+13:49:08.818135 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [error]
+13:49:08.818148 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:49:08.818184 [info ]: Started analyzing (1 nodes)
+13:49:08.818188 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:08.818203 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [skipped]
+13:49:08.818207 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:49:08.818211 [info ]:     Failed model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:08.825476 [info ]: Started scheduling
+13:49:08.825546 [info ]: Finished scheduling [  0.00s]
+13:49:08.826632 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [348ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+13:49:08.826708 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:10.489600Z | 1be9f605-416e-461b-8caf-cd145aad567a ====================
+13:49:10.489670 [info ]: Started loading project
+13:49:10.490395 [info ]: Loading ~/.dbt/profiles.yml
+13:49:10.498639 [info ]: Finished loading project [  0.01s]
+13:49:10.531756 [info ]: Cached model count updated: 1 models (estimate)
+13:49:10.531780 [info ]: Cached model count updated: 1 models (accurate)
+13:49:10.531806 [info ]: Started scheduling
+13:49:10.531844 [info ]: Finished scheduling [  0.00s]
+13:49:10.531857 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:10.575821 [info ]: Started building task graph
+13:49:10.575867 [info ]: Finished building task graph [  0.00s]
+13:49:10.603588 [info ]: Started rendering (1 nodes)
+13:49:10.603618 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:10.603628 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:10.604327 [error]: [JinjaError (dbt1501)]: Failed to render SQL missing argument: source macro requires 2 arguments: source name and table name
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:17:10
+13:49:10.604373 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [error]
+13:49:10.604388 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:49:10.604411 [info ]: Started analyzing (1 nodes)
+13:49:10.604416 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:10.604427 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [skipped]
+13:49:10.604432 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:49:10.604436 [info ]:     Failed model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:10.610650 [info ]: Started scheduling
+13:49:10.610698 [info ]: Finished scheduling [  0.00s]
+13:49:10.610861 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [121ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+13:49:10.611250 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:32.439994Z | b6b46cf7-5294-411b-970a-5da9fc820c9c ====================
+13:49:32.440050 [info ]: Started loading project
+13:49:32.440769 [info ]: Loading ~/.dbt/profiles.yml
+13:49:32.456390 [info ]: Started parsing
+13:49:32.563566 [info ]: Finished loading project [  0.12s]
+13:49:32.566893 [debug]: Failed to render SQL invalid operation: source requires 2 string arguments
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6
+13:49:32.566959 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:49:32.733914 [info ]: Finished parsing [  0.28s]
+13:49:32.738169 [info ]: Cached model count updated: 1 models (estimate)
+13:49:32.738187 [info ]: Cached model count updated: 1 models (accurate)
+13:49:32.738213 [info ]: Started scheduling
+13:49:32.738258 [info ]: Finished scheduling [  0.00s]
+13:49:32.738268 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:32.775125 [info ]: Started building task graph
+13:49:32.775182 [info ]: Finished building task graph [  0.00s]
+13:49:32.799896 [info ]: Started rendering (1 nodes)
+13:49:32.799923 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:32.799933 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:32.800618 [error]: [JinjaError (dbt1501)]: Failed to render SQL missing argument: source macro requires 2 arguments: source name and table name
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6
+13:49:32.800659 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [error]
+13:49:32.800671 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:49:32.800700 [info ]: Started analyzing (1 nodes)
+13:49:32.800705 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:32.800716 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [skipped]
+13:49:32.800720 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:49:32.800724 [info ]:     Failed model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:32.806634 [info ]: Started scheduling
+13:49:32.806698 [info ]: Finished scheduling [  0.00s]
+13:49:32.807759 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [367ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+13:49:32.807833 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:34.422717Z | 004fa30e-2a32-4d2c-820d-1784f105a1af ====================
+13:49:34.422767 [info ]: Started loading project
+13:49:34.423489 [info ]: Loading ~/.dbt/profiles.yml
+13:49:34.431616 [info ]: Finished loading project [  0.01s]
+13:49:34.462683 [info ]: Cached model count updated: 1 models (estimate)
+13:49:34.462706 [info ]: Cached model count updated: 1 models (accurate)
+13:49:34.462742 [info ]: Started scheduling
+13:49:34.462785 [info ]: Finished scheduling [  0.00s]
+13:49:34.462798 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:34.505991 [info ]: Started building task graph
+13:49:34.506041 [info ]: Finished building task graph [  0.00s]
+13:49:34.533315 [info ]: Started rendering (1 nodes)
+13:49:34.533348 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:34.533358 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:34.534384 [error]: [JinjaError (dbt1501)]: Failed to render SQL missing argument: source macro requires 2 arguments: source name and table name
+(in models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6)
+  --> models/refactoring_tutorial/legacy/customer_orders_legacy.sql:19:6
+13:49:34.534459 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [error]
+13:49:34.534478 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+13:49:34.534504 [info ]: Started analyzing (1 nodes)
+13:49:34.534512 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:34.534529 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [skipped]
+13:49:34.534537 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+13:49:34.534545 [info ]:     Failed model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:34.540663 [info ]: Started scheduling
+13:49:34.540715 [info ]: Finished scheduling [  0.00s]
+13:49:34.540841 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error for target 'dev' [118ms]
+Processed: 1 model
+Summary: 1 total | 1 error
+13:49:34.541191 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:42.183963Z | edbba7ef-f437-4c08-bd54-fa9864dad260 ====================
+13:49:42.184013 [info ]: Started loading project
+13:49:42.184699 [info ]: Loading ~/.dbt/profiles.yml
+13:49:42.200577 [info ]: Started parsing
+13:49:42.307943 [info ]: Finished loading project [  0.12s]
+13:49:42.311034 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:49:42.476963 [info ]: Finished parsing [  0.28s]
+13:49:42.480842 [info ]: Cached model count updated: 1 models (estimate)
+13:49:42.480856 [info ]: Cached model count updated: 1 models (accurate)
+13:49:42.480880 [info ]: Started scheduling
+13:49:42.480928 [info ]: Finished scheduling [  0.00s]
+13:49:42.480938 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:42.516997 [info ]: Started building task graph
+13:49:42.517047 [info ]: Finished building task graph [  0.00s]
+13:49:42.539804 [info ]: Started rendering (1 nodes)
+13:49:42.539826 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:42.539835 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:42.546115 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:49:42.546273 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:42.546291 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:49:42.546310 [info ]: Started analyzing (1 nodes)
+13:49:42.546316 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:42.550996 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:42.551013 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:49:42.551019 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:49:42.557618 [info ]: Started scheduling
+13:49:42.557689 [info ]: Finished scheduling [  0.00s]
+13:49:42.558801 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [374ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:49:42.558878 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:49:44.260615Z | 312d0f52-7cde-418e-9825-918ebd2ee641 ====================
+13:49:44.260671 [info ]: Started loading project
+13:49:44.261379 [info ]: Loading ~/.dbt/profiles.yml
+13:49:44.270273 [info ]: Finished loading project [  0.01s]
+13:49:44.303137 [info ]: Cached model count updated: 1 models (estimate)
+13:49:44.303161 [info ]: Cached model count updated: 1 models (accurate)
+13:49:44.303190 [info ]: Started scheduling
+13:49:44.303238 [info ]: Finished scheduling [  0.00s]
+13:49:44.303255 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:49:44.350177 [info ]: Started building task graph
+13:49:44.350234 [info ]: Finished building task graph [  0.00s]
+13:49:44.379333 [info ]: Started rendering (1 nodes)
+13:49:44.379366 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:49:44.379377 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:49:44.380124 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:49:44.380215 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:44.380244 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:49:44.380266 [info ]: Started analyzing (1 nodes)
+13:49:44.380277 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:49:44.384395 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:49:44.384427 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:49:44.384437 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:49:44.390835 [info ]: Started scheduling
+13:49:44.390888 [info ]: Finished scheduling [  0.00s]
+13:49:44.391002 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [130ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:49:44.391378 [info ]: Cached model count updated: 1 models (accurate)
+13:50:26.606322 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T13:50:46.118743Z | f7c25fc1-e82a-4b17-9216-b367c75d03cf ====================
+13:50:46.118797 [info ]: Started loading project
+13:50:46.119474 [info ]: Loading ~/.dbt/profiles.yml
+13:50:46.136629 [info ]: Started parsing
+13:50:46.270002 [info ]: Finished loading project [  0.15s]
+13:50:46.273217 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:50:46.435557 [info ]: Finished parsing [  0.30s]
+13:50:46.439960 [info ]: Cached model count updated: 1 models (estimate)
+13:50:46.439978 [info ]: Cached model count updated: 1 models (accurate)
+13:50:46.440002 [info ]: Started scheduling
+13:50:46.440055 [info ]: Finished scheduling [  0.00s]
+13:50:46.440068 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:50:46.475929 [info ]: Started building task graph
+13:50:46.475979 [info ]: Finished building task graph [  0.00s]
+13:50:46.498284 [info ]: Started rendering (1 nodes)
+13:50:46.498306 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:50:46.498315 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:50:46.504993 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:50:46.505134 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:50:46.505154 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:50:46.505175 [info ]: Started analyzing (1 nodes)
+13:50:46.505181 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:50:46.509160 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:50:46.509177 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:50:46.509184 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:50:46.515035 [info ]: Started scheduling
+13:50:46.515093 [info ]: Finished scheduling [  0.00s]
+13:50:46.516242 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [397ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:50:46.516310 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:50:48.213860Z | 66bccd2e-55e4-41d5-a33c-24df6d3c2ef2 ====================
+13:50:48.213929 [info ]: Started loading project
+13:50:48.214694 [info ]: Loading ~/.dbt/profiles.yml
+13:50:48.223371 [info ]: Finished loading project [  0.01s]
+13:50:48.253331 [info ]: Cached model count updated: 1 models (estimate)
+13:50:48.253354 [info ]: Cached model count updated: 1 models (accurate)
+13:50:48.253381 [info ]: Started scheduling
+13:50:48.253427 [info ]: Finished scheduling [  0.00s]
+13:50:48.253445 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:50:48.296726 [info ]: Started building task graph
+13:50:48.296780 [info ]: Finished building task graph [  0.00s]
+13:50:48.323965 [info ]: Started rendering (1 nodes)
+13:50:48.323990 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:50:48.324000 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:50:48.324550 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:50:48.324670 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:50:48.324695 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:50:48.324713 [info ]: Started analyzing (1 nodes)
+13:50:48.324721 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:50:48.329213 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:50:48.329232 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:50:48.329238 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:50:48.335224 [info ]: Started scheduling
+13:50:48.335267 [info ]: Finished scheduling [  0.00s]
+13:50:48.335373 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [121ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:50:48.335686 [info ]: Cached model count updated: 1 models (accurate)
+13:50:52.557597 [debug]: Ignoring unsupported LSP notification
+==================== 2026-10-20T13:51:15.155193Z | 2c8964ad-5a8c-408f-a090-6d72c6137205 ====================
+13:51:15.155247 [info ]: Started loading project
+13:51:15.155931 [info ]: Loading ~/.dbt/profiles.yml
+13:51:15.174124 [info ]: Started parsing
+13:51:15.316307 [info ]: Finished loading project [  0.16s]
+13:51:15.319500 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:51:15.487199 [info ]: Finished parsing [  0.31s]
+13:51:15.491433 [info ]: Cached model count updated: 1 models (estimate)
+13:51:15.491450 [info ]: Cached model count updated: 1 models (accurate)
+13:51:15.491475 [info ]: Started scheduling
+13:51:15.491523 [info ]: Finished scheduling [  0.00s]
+13:51:15.491532 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:51:15.527302 [info ]: Started building task graph
+13:51:15.527350 [info ]: Finished building task graph [  0.00s]
+13:51:15.550811 [info ]: Started rendering (1 nodes)
+13:51:15.550842 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:51:15.550851 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:51:15.557606 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:51:15.557815 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:15.557844 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:51:15.557871 [info ]: Started analyzing (1 nodes)
+13:51:15.557881 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:51:15.562122 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:15.562138 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:15.562145 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:51:15.568053 [info ]: Started scheduling
+13:51:15.568114 [info ]: Finished scheduling [  0.00s]
+13:51:15.569143 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [413ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:51:15.569202 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:51:17.190248Z | 0c0c3915-3981-4b1e-9c99-7ae6c66296ec ====================
+13:51:17.190295 [info ]: Started loading project
+13:51:17.190996 [info ]: Loading ~/.dbt/profiles.yml
+13:51:17.199979 [info ]: Finished loading project [  0.01s]
+13:51:17.231011 [info ]: Cached model count updated: 1 models (estimate)
+13:51:17.231035 [info ]: Cached model count updated: 1 models (accurate)
+13:51:17.231060 [info ]: Started scheduling
+13:51:17.231104 [info ]: Finished scheduling [  0.00s]
+13:51:17.231122 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:51:17.273511 [info ]: Started building task graph
+13:51:17.273553 [info ]: Finished building task graph [  0.00s]
+13:51:17.296972 [info ]: Started rendering (1 nodes)
+13:51:17.297005 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:51:17.297015 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:51:17.297506 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:51:17.297572 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:17.297588 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:17.297609 [info ]: Started analyzing (1 nodes)
+13:51:17.297614 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:51:17.301057 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:17.301075 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:17.301083 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:51:17.306871 [info ]: Started scheduling
+13:51:17.306914 [info ]: Finished scheduling [  0.00s]
+13:51:17.307014 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [116ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:51:17.307337 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:51:27.628946Z | 2d0c8653-0867-4782-a2f2-9c38063370e4 ====================
+13:51:27.628999 [info ]: Started loading project
+13:51:27.629728 [info ]: Loading ~/.dbt/profiles.yml
+13:51:27.639504 [info ]: Finished loading project [  0.01s]
+13:51:27.673952 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [45ms]
+13:51:27.674023 [info ]: Cached model count updated: 1 models (accurate)
+13:51:37.294852 [debug]: Query executed on node unknown:
+select * from (
+WITH paid_orders as (select Orders.ID as order_id,
+        Orders.USER_ID    as customer_id,
+        Orders.ORDER_DATE AS order_placed_at,
+            Orders.STATUS AS order_status,
+        p.total_amount_paid,
+        p.payment_finalized_date,
+        C.FIRST_NAME    as customer_first_name,
+            C.LAST_NAME as customer_last_name
+    FROM `raw`.`jaffle_shop`.`orders` as Orders
+    left join (select ORDERID as order_id, max(CREATED) as payment_finalized_date, sum(AMOUNT) / 100.0 as total_amount_paid
+from `raw`.`stripe`.`payments`
+where STATUS <> 'fail'
+group by 1) p ON orders.ID = p.order_id
+left join `raw`.`jaffle_shop`.`customers` C on orders.USER_ID = C.ID ),
+
+customer_orders 
+    as (select C.ID as customer_id
+        , min(ORDER_DATE) as first_order_date
+        , max(ORDER_DATE) as most_recent_order_date
+        , count(ORDERS.ID) AS number_of_orders
+    from `raw`.`jaffle_shop`.`customers` C 
+    left join `raw`.`jaffle_shop`.`orders` as Orders
+    on orders.USER_ID = C.ID 
+    group by 1)
+SELECT * FROM customer_orders
+) limit 1000
+==================== 2026-10-20T13:51:37.366089Z | 7e191128-cbf1-47f6-897a-989d4a7ddc1a ====================
+13:51:37.366138 [info ]: Started loading project
+13:51:37.366808 [info ]: Loading ~/.dbt/profiles.yml
+13:51:37.375834 [info ]: Finished loading project [  0.01s]
+13:51:37.407698 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [41ms]
+13:51:37.407767 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:51:38.943757Z | baf4a306-0772-4dae-97f5-d9c6759aaf09 ====================
+13:51:38.943807 [info ]: Started loading project
+13:51:38.944677 [info ]: Loading ~/.dbt/profiles.yml
+13:51:38.954453 [info ]: Finished loading project [  0.01s]
+13:51:38.986936 [info ]: Cached model count updated: 1 models (estimate)
+13:51:38.986960 [info ]: Cached model count updated: 1 models (accurate)
+13:51:38.986990 [info ]: Started scheduling
+13:51:38.987040 [info ]: Finished scheduling [  0.00s]
+13:51:38.987060 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:51:39.032241 [info ]: Started building task graph
+13:51:39.032296 [info ]: Finished building task graph [  0.00s]
+13:51:39.060414 [info ]: Started rendering (1 nodes)
+13:51:39.060457 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:51:39.060469 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:51:39.061212 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:51:39.061292 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:39.061310 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:39.061325 [info ]: Started analyzing (1 nodes)
+13:51:39.061331 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:51:39.065671 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:39.065704 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:39.065714 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:51:39.071965 [info ]: Started scheduling
+13:51:39.072023 [info ]: Finished scheduling [  0.00s]
+13:51:39.072117 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [128ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:51:39.072578 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:51:50.032679Z | 324da6ff-8ee8-402d-adfd-c9258dcb6caa ====================
+13:51:50.032731 [info ]: Started loading project
+13:51:50.033407 [info ]: Loading ~/.dbt/profiles.yml
+13:51:50.052174 [info ]: Started parsing
+13:51:50.193336 [info ]: Finished loading project [  0.16s]
+13:51:50.197359 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:51:50.362752 [info ]: Finished parsing [  0.31s]
+13:51:50.366993 [info ]: Cached model count updated: 1 models (estimate)
+13:51:50.367011 [info ]: Cached model count updated: 1 models (accurate)
+13:51:50.367038 [info ]: Started scheduling
+13:51:50.367089 [info ]: Finished scheduling [  0.00s]
+13:51:50.367103 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:51:50.405217 [info ]: Started building task graph
+13:51:50.405277 [info ]: Finished building task graph [  0.00s]
+13:51:50.428794 [info ]: Started rendering (1 nodes)
+13:51:50.428826 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:51:50.428836 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:51:50.435862 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:51:50.436071 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:50.436101 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:51:50.436127 [info ]: Started analyzing (1 nodes)
+13:51:50.436137 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:51:50.440051 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:50.440074 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:50.440082 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.01s]
+13:51:50.445753 [info ]: Started scheduling
+13:51:50.445829 [info ]: Finished scheduling [  0.00s]
+13:51:50.446898 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [414ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:51:50.446979 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:51:51.912849Z | afb51279-b459-4a69-85e9-cabd9e92c2cd ====================
+13:51:51.912906 [info ]: Started loading project
+13:51:51.913634 [info ]: Loading ~/.dbt/profiles.yml
+13:51:51.923321 [info ]: Finished loading project [  0.01s]
+13:51:51.954848 [info ]: Cached model count updated: 1 models (estimate)
+13:51:51.954871 [info ]: Cached model count updated: 1 models (accurate)
+13:51:51.954900 [info ]: Started scheduling
+13:51:51.954949 [info ]: Finished scheduling [  0.00s]
+13:51:51.954961 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:51:51.999124 [info ]: Started building task graph
+13:51:51.999185 [info ]: Finished building task graph [  0.00s]
+13:51:52.026139 [info ]: Started rendering (1 nodes)
+13:51:52.026172 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:51:52.026182 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:51:52.026921 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:51:52.027020 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:52.027047 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:52.027068 [info ]: Started analyzing (1 nodes)
+13:51:52.027078 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:51:52.031509 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:51:52.031539 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:51:52.031552 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:51:52.037424 [info ]: Started scheduling
+13:51:52.037476 [info ]: Finished scheduling [  0.00s]
+13:51:52.037582 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [124ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:51:52.037935 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:52:57.444544Z | b8893bd4-f746-444a-aa28-e609bbef6ac5 ====================
+13:52:57.444603 [info ]: Started loading project
+13:52:57.445304 [info ]: Loading ~/.dbt/profiles.yml
+13:52:57.455203 [info ]: Finished loading project [  0.01s]
+13:52:57.492206 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [47ms]
+13:52:57.492279 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-10-20T13:52:59.009235Z | 1432013b-7d0e-4514-8c03-85f255763c73 ====================
+13:52:59.009284 [info ]: Started loading project
+13:52:59.010003 [info ]: Loading ~/.dbt/profiles.yml
+13:52:59.019621 [info ]: Finished loading project [  0.01s]
+13:52:59.050510 [info ]: Cached model count updated: 1 models (estimate)
+13:52:59.050535 [info ]: Cached model count updated: 1 models (accurate)
+13:52:59.050560 [info ]: Started scheduling
+13:52:59.050604 [info ]: Finished scheduling [  0.00s]
+13:52:59.050617 [debug]: Compilation - 1 nodes selected: {"model.dbt-refactoring.customer_orders_legacy"}
+13:52:59.093365 [info ]: Started building task graph
+13:52:59.093411 [info ]: Finished building task graph [  0.00s]
+13:52:59.118740 [info ]: Started rendering (1 nodes)
+13:52:59.118768 [info ]: Started model ktspls_refactoring.customer_orders_legacy
+13:52:59.118779 [debug]: Started rendering model ktspls_refactoring.customer_orders_legacy
+13:52:59.119425 [debug]: Compiled SQL for node model.dbt-refactoring.customer_orders_legacy at target\.lsp\compiled\dbt-refactoring\models\refactoring_tutorial\legacy\customer_orders_legacy.sql
+13:52:59.119516 [debug]: Finished rendering [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:52:59.119545 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:52:59.119568 [info ]: Started analyzing (1 nodes)
+13:52:59.119582 [debug]: Started analyzing model ktspls_refactoring.customer_orders_legacy
+13:52:59.123389 [debug]: Finished analyzing [  0.00s] model ktspls_refactoring.customer_orders_legacy [success]
+13:52:59.123405 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+13:52:59.123412 [info ]:  Succeeded model ktspls_refactoring.customer_orders_legacy (table) [1 of 1 in 0.00s]
+13:52:59.128945 [info ]: Started scheduling
+13:52:59.128986 [info ]: Finished scheduling [  0.00s]
+13:52:59.129064 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [119ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+13:52:59.129359 [info ]: Cached model count updated: 1 models (accurate)

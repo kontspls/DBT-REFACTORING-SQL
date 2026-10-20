@@ -3710,3 +3710,11 @@ DROP SCHEMA IF EXISTS `dbt-refactoring`.dbt_ktspls_raw CASCADE
 10:49:04.497388 [info ]: 
 ==================== Execution Summary =====================
 Finished 'run-operation' successfully for target 'dev' [3.8s]
+==================== 2026-10-20T09:11:39.046602Z | 01a15894-a522-74f2-8720-3314a3addfa0 ====================
+09:11:39.321782 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [275ms]
+==================== 2026-10-20T09:14:51.292676Z | 01a15897-9419-7c02-a7ad-66d37bde3f18 ====================
+09:14:51.535566 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [242ms]

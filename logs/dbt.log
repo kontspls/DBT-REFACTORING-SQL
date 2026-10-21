@@ -4395,3 +4395,460 @@ select
 Finished 'run' successfully for target 'dev' [9.6s]
 Processed: 1 model
 Summary: 1 total | 1 success
+==================== 2026-10-21T12:21:05.064759Z | 01a15e68-6fa5-7fe3-bb54-918948fc2d6c ====================
+12:21:05.390930 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [326ms]
+==================== 2026-10-21T12:42:01.688569Z | 01a15e7b-9c52-7470-bc08-ad7399339545 ====================
+12:42:02.056411 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [367ms]
+==================== 2026-10-21T12:59:49.584075Z | 01a15e8b-e770-7543-99c4-809ad69f3926 ====================
+12:59:49.584186 [info ]: dbt 2.0.9
+12:59:49.584655 [info ]: Started loading project
+12:59:49.589028 [info ]: Loading ~/.dbt/profiles.yml
+12:59:49.599782 [info ]: Loading packages.yml
+12:59:49.600781 [debug]:    Started loading packages
+12:59:49.616479 [debug]:     Loaded [  0.02s] packages
+12:59:49.617839 [info ]: Finished loading project [  0.03s]
+12:59:49.618314 [info ]: Started parsing (4 nodes)
+12:59:49.682821 [debug]:    Started building model nodes
+12:59:49.682862 [debug]:    Started building model nodes
+12:59:49.682874 [debug]:    Started building model nodes
+12:59:49.682894 [debug]:   Finished [  0.00s] building model nodes
+12:59:49.682878 [debug]:   Finished [  0.00s] building model nodes
+12:59:49.682900 [debug]:    Started building model nodes
+12:59:49.682883 [debug]:   Finished [  0.00s] building model nodes
+12:59:49.682918 [debug]:   Finished [  0.00s] building model nodes
+12:59:49.683398 [debug]:    Started resolving data tests
+12:59:49.683433 [debug]:   Finished [  0.00s] resolving data tests
+12:59:49.683568 [debug]:    Started resolving data tests
+12:59:49.683585 [debug]:    Started resolving data tests
+12:59:49.683615 [debug]:   Finished [  0.00s] resolving data tests
+12:59:49.683617 [debug]:   Finished [  0.00s] resolving data tests
+12:59:49.683685 [debug]:    Started resolving data tests
+12:59:49.683726 [debug]:   Finished [  0.00s] resolving data tests
+12:59:49.684381 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+12:59:49.684963 [debug]: Finished parsing models/refactoring_tutorial/staging/stripe/sources.yml [  0.00s]
+12:59:49.686950 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+12:59:49.687867 [debug]: Finished parsing models/refactoring_tutorial/marts/fct_customer_orders.sql [  0.00s]
+12:59:49.688180 [debug]:    Started building model nodes
+12:59:49.689132 [debug]:   Finished [  0.00s] building model nodes
+12:59:49.689622 [debug]:    Started resolving data tests
+12:59:49.689658 [debug]:   Finished [  0.00s] resolving data tests
+12:59:49.691169 [debug]:    Started typechecking macros
+12:59:49.863078 [debug]:   Finished [  0.17s] typechecking macros
+12:59:49.864814 [info ]: Finished parsing [  0.25s] (4 nodes, 0 skipped, 0 errors)
+12:59:49.914767 [info ]: Started scheduling
+12:59:49.914926 [info ]: Finished scheduling [  0.00s]
+12:59:49.958670 [info ]: Started building task graph
+12:59:49.958951 [info ]: Finished building task graph [  0.00s]
+12:59:49.983269 [debug]: Databricks driver resolved: databricks 0.21.0.dev+dbt0.21.13
+13:00:02.621769 [debug]: create_debug_span(...).entered() took 85.5µs
+13:00:04.365235 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 1.7433703s
+13:00:04.365268 [debug]: reader.schema() took 4.1µs
+13:00:04.369989 [debug]: batch-consume loop (for res in reader) took 4.7096ms
+13:00:04.370626 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 1.7488298s
+13:00:04.370748 [debug]: concat_batches + normalize_result_column_names took 96.8µs
+13:00:04.370773 [debug]: record_current_span_status_from_attrs took 18.5µs
+13:00:04.370790 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "invocation_id": "01a15e8b-e770-7543-99c4-809ad69f3926", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+SHOW SCHEMAS IN `dbt-refactoring`
+13:00:04.370812 [debug]: drop(query_span_guard) (span exit/export) took 32.1µs
+13:00:04.371481 [info ]: Started rendering (1 nodes)
+13:00:04.371631 [info ]: Started model ktspls_refactoring.fct_customer_orders
+13:00:04.371643 [debug]: Started rendering model ktspls_refactoring.fct_customer_orders
+13:00:04.378221 [debug]: Compiled SQL for node model.dbt-refactoring.fct_customer_orders at target\compiled\dbt-refactoring\models\refactoring_tutorial\marts\fct_customer_orders.sql
+13:00:04.378407 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.fct_customer_orders [success]
+13:00:04.378707 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+13:00:04.379054 [info ]: Started analyzing (1 nodes)
+13:00:04.379200 [debug]: Started analyzing model ktspls_refactoring.fct_customer_orders
+13:00:04.418403 [debug]: Finished analyzing [  0.04s] model ktspls_refactoring.fct_customer_orders [success]
+13:00:04.418883 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+13:00:04.419273 [info ]: Started running (1 nodes)
+13:00:04.419374 [info ]: Started running model ktspls_refactoring.fct_customer_orders
+13:00:04.420670 [debug]: MATERIALIZING TABLE
+13:00:04.422217 [debug]: create_debug_span(...).entered() took 9.9µs
+13:00:06.204097 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 1.7817312s
+13:00:06.204136 [debug]: reader.schema() took 500ns
+13:00:06.207917 [debug]: batch-consume loop (for res in reader) took 3.766ms
+13:00:06.208466 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 1.7862274s
+13:00:06.208512 [debug]: concat_batches + normalize_result_column_names took 26.8µs
+13:00:06.208528 [debug]: record_current_span_status_from_attrs took 4.1µs
+13:00:06.208542 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+
+SELECT
+    table_name,
+    if(table_type IN ('EXTERNAL', 'MANAGED', 'MANAGED_SHALLOW_CLONE', 'EXTERNAL_SHALLOW_CLONE'), 'table', lower(table_type)) AS table_type,
+    lower(data_source_format) AS file_format,
+    table_schema,
+    table_owner,
+    table_catalog,
+    if(
+    table_type IN (
+        'EXTERNAL',
+        'MANAGED',
+        'MANAGED_SHALLOW_CLONE',
+        'EXTERNAL_SHALLOW_CLONE'
+    ),
+    lower(table_type),
+    NULL
+    ) AS databricks_table_type
+FROM `system`.`information_schema`.`tables`
+WHERE table_catalog = 'dbt-refactoring'
+    AND table_schema = 'ktspls_refactoring'
+13:00:06.208596 [debug]: drop(query_span_guard) (span exit/export) took 60.3µs
+13:00:06.211607 [debug]: create_debug_span(...).entered() took 10.6µs
+13:00:07.326764 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 1.1150991s
+13:00:07.326803 [debug]: reader.schema() took 900ns
+13:00:07.327877 [debug]: batch-consume loop (for res in reader) took 1.049ms
+13:00:07.328329 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 1.1167038s
+13:00:07.328378 [debug]: concat_batches + normalize_result_column_names took 38µs
+13:00:07.328392 [debug]: record_current_span_status_from_attrs took 3.4µs
+13:00:07.328400 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8b-e770-7543-99c4-809ad69f3926", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+SELECT
+    table_catalog,
+    table_schema,
+    table_name,
+    filter_name,
+    target_columns
+  FROM `dbt-refactoring`.`information_schema`.`row_filters`
+  WHERE table_catalog = 'dbt-refactoring'
+    AND table_schema = 'ktspls_refactoring'
+    AND table_name = 'fct_customer_orders'
+13:00:07.328425 [debug]: drop(query_span_guard) (span exit/export) took 29.5µs
+13:00:07.331681 [debug]: Writing runtime sql for node "model.dbt-refactoring.fct_customer_orders"
+13:00:07.337561 [debug]: create_debug_span(...).entered() took 17µs
+13:00:11.428202 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8b-e770-7543-99c4-809ad69f3926", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+create or replace table `dbt-refactoring`.`ktspls_refactoring`.`fct_customer_orders`
+      
+      
+    
+      using delta
+    
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      as
+      WITH
+    paid_orders as (
+        select
+            Orders.ID as order_id,
+            Orders.USER_ID as customer_id,
+            Orders.ORDER_DATE AS order_placed_at,
+            Orders.STATUS AS order_status,
+            p.total_amount_paid,
+            p.payment_finalized_date,
+            C.FIRST_NAME as customer_first_name,
+            C.LAST_NAME as customer_last_name
+        FROM
+            raw.jaffle_shop.orders as Orders
+            left join (
+                select
+                    ORDERID as order_id,
+                    max(CREATED) as payment_finalized_date,
+                    sum(AMOUNT) / 100.0 as total_amount_paid
+                from
+                    raw.stripe.payment
+                where
+                    STATUS <> 'fail'
+                group by
+                    1
+            ) p ON orders.ID = p.order_id
+            left join raw.jaffle_shop.customers C on orders.USER_ID = C.ID
+    ),
+    customer_orders as (
+        select
+            C.ID as customer_id,
+            min(ORDER_DATE) as first_order_date,
+            max(ORDER_DATE) as most_recent_order_date,
+            count(ORDERS.ID) AS number_of_orders
+        from
+            raw.jaffle_shop.customers C
+            left join raw.jaffle_shop.orders as Orders on orders.USER_ID = C.ID
+        group by
+            1
+    )
+select
+    p.*,
+    ROW_NUMBER() OVER (
+        ORDER BY
+            p.order_id
+    ) as transaction_seq,
+    ROW_NUMBER() OVER (
+        PARTITION BY
+            customer_id
+        ORDER BY
+            p.order_id
+    ) as customer_sales_seq,
+    CASE
+        WHEN c.first_order_date = p.order_placed_at THEN 'new'
+        ELSE 'return'
+    END as nvsr,
+    x.clv_bad as customer_lifetime_value,
+    c.first_order_date as fdos
+FROM
+    paid_orders p
+    left join customer_orders as c USING (customer_id)
+    LEFT OUTER JOIN (
+        select
+            p.order_id,
+            sum(t2.total_amount_paid) as clv_bad
+        from
+            paid_orders p
+            left join paid_orders t2 on p.customer_id = t2.customer_id
+            and p.order_id >= t2.order_id
+        group by
+            1
+        order by
+            p.order_id
+    ) x on x.order_id = p.order_id
+ORDER BY
+    order_id
+13:00:12.429386 [error]: [DbDriverFailed (dbt1308)]: Database Error in model fct_customer_orders (target\run\dbt-refactoring\models\refactoring_tutorial\marts\fct_customer_orders.sql)
+  failed to execute query: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [TABLE_OR_VIEW_NOT_FOUND] The table or view `raw`.`stripe`.`payment` cannot be found. Verify the spelling and correctness of the schema and catalog.
+  Search path: [`system`.`session`, `system`.`builtin`, `system`.`ai`, `dbt-refactoring`.`ktspls_refactoring`].
+  If you did not qualify the name with a schema, verify the current_schema() output, or qualify the name with the correct schema and catalog.
+  To tolerate the error on drop use DROP VIEW IF EXISTS or DROP TABLE IF EXISTS. SQLSTATE: 42P01; line 37 pos 20
+  (in run\dbt-refactoring\models/refactoring_tutorial/marts\fct_customer_orders.sql)
+13:00:12.429581 [info ]: Finished running [  8.01s] model ktspls_refactoring.fct_customer_orders [error]
+13:00:12.429721 [info ]: Finished running [  8.01s] (1 nodes, 0 skipped, 1 errors)
+13:00:12.429993 [info ]:     Failed model ktspls_refactoring.fct_customer_orders (table) [1 of 1 in 8.05s]
+13:00:12.856487 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error for target 'dev' [23.3s]
+Processed: 1 model
+Summary: 1 total | 1 error
+==================== 2026-10-21T13:00:54.956739Z | 01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8 ====================
+13:00:54.956881 [info ]: dbt 2.0.9
+13:00:54.957337 [info ]: Started loading project
+13:00:54.961766 [info ]: Loading ~/.dbt/profiles.yml
+13:00:54.972694 [info ]: Loading packages.yml
+13:00:54.973795 [debug]:    Started loading packages
+13:00:54.990946 [debug]:     Loaded [  0.02s] packages
+13:00:54.992297 [info ]: Finished loading project [  0.03s]
+13:00:54.993108 [info ]: Started parsing (4 nodes)
+13:00:55.058463 [debug]:    Started building model nodes
+13:00:55.058498 [debug]:   Finished [  0.00s] building model nodes
+13:00:55.058711 [debug]:    Started building model nodes
+13:00:55.058736 [debug]:   Finished [  0.00s] building model nodes
+13:00:55.058779 [debug]:    Started building model nodes
+13:00:55.058795 [debug]:   Finished [  0.00s] building model nodes
+13:00:55.058908 [debug]:    Started building model nodes
+13:00:55.058941 [debug]:   Finished [  0.00s] building model nodes
+13:00:55.059031 [debug]:    Started resolving data tests
+13:00:55.059056 [debug]:   Finished [  0.00s] resolving data tests
+13:00:55.059189 [debug]:    Started resolving data tests
+13:00:55.059215 [debug]:   Finished [  0.00s] resolving data tests
+13:00:55.059269 [debug]:    Started resolving data tests
+13:00:55.059295 [debug]:   Finished [  0.00s] resolving data tests
+13:00:55.059672 [debug]:    Started resolving data tests
+13:00:55.059697 [debug]:   Finished [  0.00s] resolving data tests
+13:00:55.060274 [debug]: Finished parsing models/refactoring_tutorial/staging/jaffle_shop/sources.yml [  0.00s]
+13:00:55.060814 [debug]: Finished parsing models/refactoring_tutorial/staging/stripe/sources.yml [  0.00s]
+13:00:55.062370 [debug]: Finished parsing models/refactoring_tutorial/legacy/customer_orders_legacy.sql [  0.00s]
+13:00:55.063553 [debug]: Finished parsing models/refactoring_tutorial/marts/fct_customer_orders.sql [  0.00s]
+13:00:55.063883 [debug]:    Started building model nodes
+13:00:55.064752 [debug]:   Finished [  0.00s] building model nodes
+13:00:55.065224 [debug]:    Started resolving data tests
+13:00:55.065253 [debug]:   Finished [  0.00s] resolving data tests
+13:00:55.066273 [debug]:    Started typechecking macros
+13:00:55.248172 [debug]:   Finished [  0.18s] typechecking macros
+13:00:55.250447 [info ]: Finished parsing [  0.26s] (4 nodes, 0 skipped, 0 errors)
+13:00:55.304780 [info ]: Started scheduling
+13:00:55.304975 [info ]: Finished scheduling [  0.00s]
+13:00:55.343328 [info ]: Started building task graph
+13:00:55.343656 [info ]: Finished building task graph [  0.00s]
+13:00:55.367959 [debug]: Databricks driver resolved: databricks 0.21.0.dev+dbt0.21.13
+13:00:56.998084 [debug]: create_debug_span(...).entered() took 45.5µs
+13:00:57.507838 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 509.6417ms
+13:00:57.507880 [debug]: reader.schema() took 3.7µs
+13:00:57.509695 [debug]: batch-consume loop (for res in reader) took 1.8047ms
+13:00:57.510326 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 512.2131ms
+13:00:57.510378 [debug]: concat_batches + normalize_result_column_names took 40.6µs
+13:00:57.510396 [debug]: record_current_span_status_from_attrs took 10.8µs
+13:00:57.510407 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+SHOW SCHEMAS IN `dbt-refactoring`
+13:00:57.510430 [debug]: drop(query_span_guard) (span exit/export) took 29.9µs
+13:00:57.510828 [info ]: Started rendering (1 nodes)
+13:00:57.528959 [info ]: Started model ktspls_refactoring.fct_customer_orders
+13:00:57.528974 [debug]: Started rendering model ktspls_refactoring.fct_customer_orders
+13:00:57.535789 [debug]: Compiled SQL for node model.dbt-refactoring.fct_customer_orders at target\compiled\dbt-refactoring\models\refactoring_tutorial\marts\fct_customer_orders.sql
+13:00:57.536173 [debug]: Finished rendering [  0.01s] model ktspls_refactoring.fct_customer_orders [success]
+13:00:57.536490 [info ]: Finished rendering [  0.03s] (1 nodes, 0 skipped, 0 errors)
+13:00:57.536839 [info ]: Started analyzing (1 nodes)
+13:00:57.536953 [debug]: Started analyzing model ktspls_refactoring.fct_customer_orders
+13:00:57.575351 [debug]: Finished analyzing [  0.04s] model ktspls_refactoring.fct_customer_orders [success]
+13:00:57.575651 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+13:00:57.575983 [info ]: Started running (1 nodes)
+13:00:57.576101 [info ]: Started running model ktspls_refactoring.fct_customer_orders
+13:00:57.577345 [debug]: MATERIALIZING TABLE
+13:00:57.578389 [debug]: create_debug_span(...).entered() took 11.2µs
+13:00:58.222987 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 644.4721ms
+13:00:58.223021 [debug]: reader.schema() took 600ns
+13:00:58.223853 [debug]: batch-consume loop (for res in reader) took 818.6µs
+13:00:58.227563 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 649.146ms
+13:00:58.227626 [debug]: concat_batches + normalize_result_column_names took 34.3µs
+13:00:58.227634 [debug]: record_current_span_status_from_attrs took 3.6µs
+13:00:58.227643 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+
+SELECT
+    table_name,
+    if(table_type IN ('EXTERNAL', 'MANAGED', 'MANAGED_SHALLOW_CLONE', 'EXTERNAL_SHALLOW_CLONE'), 'table', lower(table_type)) AS table_type,
+    lower(data_source_format) AS file_format,
+    table_schema,
+    table_owner,
+    table_catalog,
+    if(
+    table_type IN (
+        'EXTERNAL',
+        'MANAGED',
+        'MANAGED_SHALLOW_CLONE',
+        'EXTERNAL_SHALLOW_CLONE'
+    ),
+    lower(table_type),
+    NULL
+    ) AS databricks_table_type
+FROM `system`.`information_schema`.`tables`
+WHERE table_catalog = 'dbt-refactoring'
+    AND table_schema = 'ktspls_refactoring'
+13:00:58.227668 [debug]: drop(query_span_guard) (span exit/export) took 29.6µs
+13:00:58.229699 [debug]: create_debug_span(...).entered() took 10.9µs
+13:00:58.936935 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 707.1725ms
+13:00:58.936972 [debug]: reader.schema() took 700ns
+13:00:58.940941 [debug]: batch-consume loop (for res in reader) took 3.9505ms
+13:00:58.941473 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 711.7533ms
+13:00:58.941513 [debug]: concat_batches + normalize_result_column_names took 23.9µs
+13:00:58.941521 [debug]: record_current_span_status_from_attrs took 3.6µs
+13:00:58.941531 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+SELECT
+    table_catalog,
+    table_schema,
+    table_name,
+    filter_name,
+    target_columns
+  FROM `dbt-refactoring`.`information_schema`.`row_filters`
+  WHERE table_catalog = 'dbt-refactoring'
+    AND table_schema = 'ktspls_refactoring'
+    AND table_name = 'fct_customer_orders'
+13:00:58.941556 [debug]: drop(query_span_guard) (span exit/export) took 30.4µs
+13:00:58.944738 [debug]: Writing runtime sql for node "model.dbt-refactoring.fct_customer_orders"
+13:00:58.949273 [debug]: create_debug_span(...).entered() took 23.3µs
+13:01:15.527118 [debug]: stmt.execute() (submit+wait_for_completion, returns reader) took 16.5777362s
+13:01:15.527157 [debug]: reader.schema() took 600ns
+13:01:15.528466 [debug]: do_execute(conn) (closure: stmt.execute + schema + batch loop) took 16.5791513s
+13:01:15.528485 [debug]: concat_batches + normalize_result_column_names took 7.2µs
+13:01:15.528497 [debug]: record_current_span_status_from_attrs took 3.2µs
+13:01:15.528512 [debug]: Query executed on node model.dbt-refactoring.fct_customer_orders:
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+create or replace table `dbt-refactoring`.`ktspls_refactoring`.`fct_customer_orders`
+      
+      
+    
+      using delta
+    
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      as
+      with
+    paid_orders as (
+        select
+            orders.id as order_id,
+            orders.user_id as customer_id,
+            orders.order_date as order_placed_at,
+            orders.status as order_status,
+            p.total_amount_paid,
+            p.payment_finalized_date,
+            c.first_name as customer_first_name,
+            c.last_name as customer_last_name
+        from
+            raw.jaffle_shop.orders as orders
+            left join (
+                select
+                    orderid as order_id,
+                    max(created) as payment_finalized_date,
+                    sum(amount) / 100.0 as total_amount_paid
+                from
+                    raw.stripe.payments
+                where
+                    status <> 'fail'
+                group by
+                    1
+            ) p on orders.id = p.order_id
+            left join raw.jaffle_shop.customers c on orders.user_id = c.id
+    ),
+    customer_orders as (
+        select
+            c.id as customer_id,
+            min(order_date) as first_order_date,
+            max(order_date) as most_recent_order_date,
+            count(orders.id) as number_of_orders
+        from
+            raw.jaffle_shop.customers c
+            left join raw.jaffle_shop.orders as orders on orders.user_id = c.id
+        group by
+            1
+    )
+select
+    p.*,
+    row_number() over (
+        order by
+            p.order_id
+    ) as transaction_seq,
+    row_number() over (
+        partition by
+            customer_id
+        order by
+            p.order_id
+    ) as customer_sales_seq,
+    case
+        when c.first_order_date = p.order_placed_at then 'new'
+        else 'return'
+    end as nvsr,
+    x.clv_bad as customer_lifetime_value,
+    c.first_order_date as fdos
+from
+    paid_orders p
+    left join customer_orders as c using (customer_id)
+    left outer join (
+        select
+            p.order_id,
+            sum(t2.total_amount_paid) as clv_bad
+        from
+            paid_orders p
+            left join paid_orders t2 on p.customer_id = t2.customer_id
+            and p.order_id >= t2.order_id
+        group by
+            1
+        order by
+            p.order_id
+    ) x on x.order_id = p.order_id
+order by
+    order_id
+13:01:15.528541 [debug]: drop(query_span_guard) (span exit/export) took 41.3µs
+13:01:15.529234 [debug]: Applying tags to relation None
+13:01:15.530750 [info ]: Finished running [ 17.95s] model ktspls_refactoring.fct_customer_orders [success]
+13:01:15.530835 [info ]: Finished running [ 17.95s] (1 nodes, 0 skipped, 0 errors)
+13:01:15.531134 [info ]:  Succeeded model ktspls_refactoring.fct_customer_orders (table) [1 of 1 in 18.00s]
+13:01:15.937851 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [21.0s]
+Processed: 1 model
+Summary: 1 total | 1 success

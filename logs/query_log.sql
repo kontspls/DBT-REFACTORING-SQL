@@ -1,21 +1,21 @@
--- created_at: 2026-10-20T13:30:38.583018700+00:00
--- finished_at: 2026-10-20T13:30:39.125183200+00:00
--- elapsed: 542ms
+-- created_at: 2026-10-21T13:00:56.998048300+00:00
+-- finished_at: 2026-10-21T13:00:57.510407600+00:00
+-- elapsed: 512ms
 -- outcome: success
 -- dialect: databricks
 -- node_id: not available
--- query_id: 01f1cc8a-701e-14bb-bd06-1e0aeab0034a
+-- query_id: 01f1cd4f-74b8-1e87-9925-5300fbba0242
 -- desc: execute adapter call
-/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "invocation_id": "01a15981-bac3-78e2-9d64-a1e387f78e13", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "profile_name": "dbt-refactoring", "target_name": "dev"} */
 SHOW SCHEMAS IN `dbt-refactoring`;
 
--- created_at: 2026-10-20T13:30:39.174031800+00:00
--- finished_at: 2026-10-20T13:30:39.692380400+00:00
--- elapsed: 518ms
+-- created_at: 2026-10-21T13:00:57.578378+00:00
+-- finished_at: 2026-10-21T13:00:58.227643600+00:00
+-- elapsed: 649ms
 -- outcome: success
 -- dialect: databricks
--- node_id: model.dbt-refactoring.customer_orders_legacy
--- query_id: 01f1cc8a-7074-11da-a3a9-9dcc2c96daa8
+-- node_id: model.dbt-refactoring.fct_customer_orders
+-- query_id: 01f1cd4f-7511-114a-bd97-5a4d640640ec
 -- desc: get_relation > list_relations call
 
 SELECT
@@ -39,26 +39,15 @@ FROM `system`.`information_schema`.`tables`
 WHERE table_catalog = 'dbt-refactoring'
     AND table_schema = 'ktspls_refactoring';
 
--- created_at: 2026-10-20T13:30:39.693119600+00:00
--- finished_at: 2026-10-20T13:30:40.221843500+00:00
--- elapsed: 528ms
+-- created_at: 2026-10-21T13:00:58.229691800+00:00
+-- finished_at: 2026-10-21T13:00:58.941531600+00:00
+-- elapsed: 711ms
 -- outcome: success
 -- dialect: databricks
--- node_id: model.dbt-refactoring.customer_orders_legacy
--- query_id: 01f1cc8a-70c6-1468-8c4c-6a212cccefe8
--- desc: get_relation adapter call
-/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15981-bac3-78e2-9d64-a1e387f78e13", "node_id": "model.dbt-refactoring.customer_orders_legacy", "profile_name": "dbt-refactoring", "target_name": "dev"} */
-DESCRIBE TABLE EXTENDED `dbt-refactoring`.`ktspls_refactoring`.`customer_orders_legacy` AS JSON;
-
--- created_at: 2026-10-20T13:30:40.224953200+00:00
--- finished_at: 2026-10-20T13:30:40.727774600+00:00
--- elapsed: 502ms
--- outcome: success
--- dialect: databricks
--- node_id: model.dbt-refactoring.customer_orders_legacy
--- query_id: 01f1cc8a-7114-1f27-9b05-200d5a8ef596
+-- node_id: model.dbt-refactoring.fct_customer_orders
+-- query_id: 01f1cd4f-7575-1728-a760-50a4fccbe839
 -- desc: execute adapter call
-/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15981-bac3-78e2-9d64-a1e387f78e13", "node_id": "model.dbt-refactoring.customer_orders_legacy", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
 SELECT
     table_catalog,
     table_schema,
@@ -68,18 +57,18 @@ SELECT
   FROM `dbt-refactoring`.`information_schema`.`row_filters`
   WHERE table_catalog = 'dbt-refactoring'
     AND table_schema = 'ktspls_refactoring'
-    AND table_name = 'customer_orders_legacy';
+    AND table_name = 'fct_customer_orders';
 
--- created_at: 2026-10-20T13:30:40.734870900+00:00
--- finished_at: 2026-10-20T13:30:45.957613800+00:00
--- elapsed: 5.2s
+-- created_at: 2026-10-21T13:00:58.949251500+00:00
+-- finished_at: 2026-10-21T13:01:15.528512500+00:00
+-- elapsed: 16.6s
 -- outcome: success
 -- dialect: databricks
--- node_id: model.dbt-refactoring.customer_orders_legacy
--- query_id: 01f1cc8a-7162-159c-ac01-f678d3fba67e
+-- node_id: model.dbt-refactoring.fct_customer_orders
+-- query_id: 01f1cd4f-75e0-17a9-8ff6-ff05c8ba3147
 -- desc: execute adapter call
-/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15981-bac3-78e2-9d64-a1e387f78e13", "node_id": "model.dbt-refactoring.customer_orders_legacy", "profile_name": "dbt-refactoring", "target_name": "dev"} */
-create or replace table `dbt-refactoring`.`ktspls_refactoring`.`customer_orders_legacy`
+/* {"app": "dbt", "dbt_version": "2.0.0", "invocation_id": "01a15e8c-e6d7-7ab2-9b86-74008b9f0ec8", "node_id": "model.dbt-refactoring.fct_customer_orders", "profile_name": "dbt-refactoring", "target_name": "dev"} */
+create or replace table `dbt-refactoring`.`ktspls_refactoring`.`fct_customer_orders`
       
       
     
@@ -95,51 +84,79 @@ create or replace table `dbt-refactoring`.`ktspls_refactoring`.`customer_orders_
       
       
       as
-      WITH paid_orders as (select Orders.ID as order_id,
-        Orders.USER_ID    as customer_id,
-        Orders.ORDER_DATE AS order_placed_at,
-            Orders.STATUS AS order_status,
-        p.total_amount_paid,
-        p.payment_finalized_date,
-        C.FIRST_NAME    as customer_first_name,
-            C.LAST_NAME as customer_last_name
-    FROM raw.jaffle_shop.orders as Orders
-    left join (select ORDERID as order_id, max(CREATED) as payment_finalized_date, sum(AMOUNT) / 100.0 as total_amount_paid
-from raw.stripe.payments
-where STATUS <> 'fail'
-group by 1) p ON orders.ID = p.order_id
-left join raw.jaffle_shop.customers C on orders.USER_ID = C.ID ),
-
-customer_orders 
-    as (select C.ID as customer_id
-        , min(ORDER_DATE) as first_order_date
-        , max(ORDER_DATE) as most_recent_order_date
-        , count(ORDERS.ID) AS number_of_orders
-    from raw.jaffle_shop.customers C 
-    left join raw.jaffle_shop.orders as Orders
-    on orders.USER_ID = C.ID 
-    group by 1)
-
+      with
+    paid_orders as (
+        select
+            orders.id as order_id,
+            orders.user_id as customer_id,
+            orders.order_date as order_placed_at,
+            orders.status as order_status,
+            p.total_amount_paid,
+            p.payment_finalized_date,
+            c.first_name as customer_first_name,
+            c.last_name as customer_last_name
+        from
+            raw.jaffle_shop.orders as orders
+            left join (
+                select
+                    orderid as order_id,
+                    max(created) as payment_finalized_date,
+                    sum(amount) / 100.0 as total_amount_paid
+                from
+                    raw.stripe.payments
+                where
+                    status <> 'fail'
+                group by
+                    1
+            ) p on orders.id = p.order_id
+            left join raw.jaffle_shop.customers c on orders.user_id = c.id
+    ),
+    customer_orders as (
+        select
+            c.id as customer_id,
+            min(order_date) as first_order_date,
+            max(order_date) as most_recent_order_date,
+            count(orders.id) as number_of_orders
+        from
+            raw.jaffle_shop.customers c
+            left join raw.jaffle_shop.orders as orders on orders.user_id = c.id
+        group by
+            1
+    )
 select
     p.*,
-    ROW_NUMBER() OVER (ORDER BY p.order_id) as transaction_seq,
-    ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY p.order_id) as customer_sales_seq,
-    CASE WHEN c.first_order_date = p.order_placed_at
-    THEN 'new'
-    ELSE 'return' END as nvsr,
+    row_number() over (
+        order by
+            p.order_id
+    ) as transaction_seq,
+    row_number() over (
+        partition by
+            customer_id
+        order by
+            p.order_id
+    ) as customer_sales_seq,
+    case
+        when c.first_order_date = p.order_placed_at then 'new'
+        else 'return'
+    end as nvsr,
     x.clv_bad as customer_lifetime_value,
     c.first_order_date as fdos
-    FROM paid_orders p
-    left join customer_orders as c USING (customer_id)
-    LEFT OUTER JOIN 
-    (
-            select
+from
+    paid_orders p
+    left join customer_orders as c using (customer_id)
+    left outer join (
+        select
             p.order_id,
             sum(t2.total_amount_paid) as clv_bad
-        from paid_orders p
-        left join paid_orders t2 on p.customer_id = t2.customer_id and p.order_id >= t2.order_id
-        group by 1
-        order by p.order_id
+        from
+            paid_orders p
+            left join paid_orders t2 on p.customer_id = t2.customer_id
+            and p.order_id >= t2.order_id
+        group by
+            1
+        order by
+            p.order_id
     ) x on x.order_id = p.order_id
-    ORDER BY order_id;
+order by
+    order_id;
 

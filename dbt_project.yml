@@ -23,11 +23,21 @@ clean-targets:         # directories to be removed by `dbt clean`
     - "dbt_modules"
 
 
+models:
+    dbt-refactoring:
+      refactoring_tutorial:
+        marts:
+          +materialized: table
+        staging:
+            jaffle_shop:
+                +materialized: view
+            stripe:
+                +materialized: view
+   
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
-# In this example config, we tell dbt to build all models in the jaffle_shop project
-# as tables. These settings can be overridden in the individual model files
-# using the `{{ config(...) }}` macro.
+
 
 

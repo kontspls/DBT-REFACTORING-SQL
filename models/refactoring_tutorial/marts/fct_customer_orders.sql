@@ -2,46 +2,35 @@ with
 
 -- Intermediate CTEs
 
-customers as (
+customer_orders as (
     
-    select * from {{ ref('stg__customers') }}
-
-),
- 
-
-paid_orders as (
-
-    select * from {{ ref('int__orders') }}
+    select * from {{ ref('int__customers') }}
 
 ),
 
---Final CTE
+-- Final CTE
 final as (
     
     select
-        paid_orders.order_id,
-        paid_orders.customer_id,
-        paid_orders.order_placed_at,
-        paid_orders.order_status,
-        paid_orders.total_amount_paid,
-        paid_orders.nvsr,
-        paid_orders.customer_lifetime_value,
-        paid_orders.fdos,
-        paid_orders.payment_finalized_date,
-        paid_orders.transaction_seq,
-        paid_orders.customer_sales_seq,
+        customer_orders.order_id,
+        customer_orders.customer_id,
+        customer_orders.order_placed_at,
+        customer_orders.order_status,
+        customer_orders.total_amount_paid,
+        customer_orders.customer_first_name,
+        customer_orders.customer_last_name,
+        customer_orders.nvsr,
+        customer_orders.customer_lifetime_value,
+        customer_orders.fdos,
+        customer_orders.payment_finalized_date,
+        customer_orders.transaction_seq,
+        customer_orders.customer_sales_seq
         
-
-        customers.customer_first_name,
-        customers.customer_last_name
-
-        
-    from
-        paid_orders
-    left join customers on paid_orders.customer_id = customers.customer_id
-    order by customer_id
-    
+    from 
+        customer_orders
+    order by order_id
 )
+
 -- Simple Select Statement
 
 select * from final

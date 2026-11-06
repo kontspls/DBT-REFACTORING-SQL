@@ -24,8 +24,7 @@ completed_payments as (
         sum(amount) / 100.0 as total_amount_paid
         from
         payments
-    where
-        status <> 'fail'
+    where is_completed_payment(status)
     group by 
     1
 ),

@@ -1,0 +1,9 @@
+functions:
+  - name: is_completed_payment
+    description: My UDF that checks if a payment is completed.
+    arguments:
+      - name: status
+        data_type: string
+        description: The status of the payment
+    returns:
+      data_type: boolean      
